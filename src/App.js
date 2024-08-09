@@ -14,7 +14,7 @@ function App() {
         <Map />
       </main>
       <footer>
-        <p></p>
+        <p>I changed here. Can you see?</p>
       </footer>
     </div>
   );
