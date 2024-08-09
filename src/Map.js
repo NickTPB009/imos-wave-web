@@ -20,17 +20,17 @@ const Map = () => {
       zoom: zoom,
     });
 
-    // 添加Perth的Marker
+    // Perth Marker
     new mapboxgl.Marker({ color: "red" })
-      .setLngLat([115.8575, -31.9505]) // Perth的经纬度
+      .setLngLat([115.8575, -31.9505])
       .addTo(map.current);
 
-    // 添加Hobart的Marker
+    // Hobart Marker
     new mapboxgl.Marker({ color: "blue" })
-      .setLngLat([147.3257, -42.8821]) // Hobart的经纬度
+      .setLngLat([147.3257, -42.8821]) 
       .addTo(map.current);
 
-  }, []); // 注意添加依赖数组以确保仅在初次加载时运行
+  }, []); 
 
   return <div ref={mapContainer} className="map-container" />;
 };
