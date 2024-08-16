@@ -1,19 +1,26 @@
 .App-header {
   background-color: #282c34;
-  padding: 20px;
+  padding: 15px;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  position: relative;
 }
 
 .App-logo {
+  position: absolute;
+  left: 15px;
   height: 80px;
   margin-bottom: 20px;
 }
 
 h1 {
   font-size: 2rem;
+}
+
+.map-container{
+  margin-top: 6%;
 }
 

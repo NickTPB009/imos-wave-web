@@ -8,14 +8,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} alt="My Logo" className="App-logo" />
-        <h1>IMOS</h1>
+        <h1>IMOS Wave Data</h1>
       </header>
-      <main>
+
+      <div id='map-container'><main>
         <Map />
       </main>
       <footer>
-        <p>I changed here. Can you see?</p>
+        <p></p>
       </footer>
+      </div>
+      
     </div>
   );
 }
