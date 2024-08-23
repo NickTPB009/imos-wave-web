@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import mapboxgl from 'mapbox-gl';
 import './Map.css';
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiY3RpYW45OTYiLCJhIjoiY2x5Z3UwMXhzMGVlZDJpcHM5Zmc5aDVhNSJ9.kFPfW-ljJhVjhBZKTmkDdg'; // 替换为你的Mapbox访问令牌
+mapboxgl.accessToken = 'pk.eyJ1IjoiY3RpYW45OTYiLCJhIjoiY2x5Z3UwMXhzMGVlZDJpcHM5Zmc5aDVhNSJ9.kFPfW-ljJhVjhBZKTmkDdg'; 
 
 const Map = () => {
   const mapContainer = useRef(null);
