@@ -1,26 +1,37 @@
-import React from 'react';
+
+// import logo from './assets/logo.png';
+
+//I add  an import here. 
+import React, { useRef, useEffect, useState } from 'react';
+import mapboxgl from 'mapbox-gl';
 import './App.css';
-import Map from './Map'; 
-import logo from './assets/logo.png';
+// import mapboxgl from 'react-map-gl';
 
-function App() {
+mapboxgl.accessToken = 'pk.eyJ1IjoiY3RpYW45OTYiLCJhIjoiY2x5Z3UwMXhzMGVlZDJpcHM5Zmc5aDVhNSJ9.kFPfW-ljJhVjhBZKTmkDdg';
+
+export default function App() {
+
+  const mapContainer = useRef(null);
+  const map = useRef(null);
+  const [lng, setLng] = useState(133.7751);
+  const [lat, setLat] = useState(-25.2744);
+  const [zoom, setZoom] = useState(3.5);
+
+  useEffect(() => {
+    if (map.current) return; // initialize map only once
+    map.current = new mapboxgl.Map({
+      container: mapContainer.current,
+      style: 'mapbox://styles/mapbox/streets-v12',
+      center: [lng, lat],
+      zoom: zoom
+    });
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} alt="My Logo" className="App-logo" />
-        <h1>IMOS Wave Data</h1>
-      </header>
-
-      <div id='map-container'><main>
-        <Map />
-      </main>
-      <footer>
-        <p></p>
-      </footer>
-      </div>
-      
+    <div>
+      <div ref={mapContainer} className="map-container" />
     </div>
   );
+
 }
 
-export default App;

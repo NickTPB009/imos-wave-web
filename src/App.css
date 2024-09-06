@@ -20,7 +20,11 @@ h1 {
   font-size: 2rem;
 }
 
-.map-container{
+/* .map-container{
   margin-top: 6%;
+} */
+
+.map-container {
+  height: 900px;
 }
 
