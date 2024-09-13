@@ -1,5 +1,6 @@
 
-// import logo from './assets/logo.png';
+import logo from './assets/logo.png';
+import Header from './Header';
 
 //I add  an import here. 
 import React, { useRef, useEffect, useState } from 'react';
@@ -29,9 +30,9 @@ export default function App() {
 
   return (
     <div>
+      <Header />
       <div ref={mapContainer} className="map-container" />
     </div>
   );
 
 }
-
