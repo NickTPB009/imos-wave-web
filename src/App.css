@@ -20,11 +20,64 @@ h1 {
   font-size: 2rem;
 }
 
-/* .map-container{
-  margin-top: 6%;
-} */
-
 .map-container {
   height: 900px;
 }
+
+/* Ensure the container is a flexbox */
+.page-container {
+  display: flex;
+  flex-direction: column; 
+  height: 100vh;          
+  position: relative;
+}
+
+/* Flexbox main content container */
+.main-container {
+  display: flex;
+  flex-grow: 1;
+  height: calc(100vh - 80px); 
+}
+
+/* Horizontal (row) and vertical (column) layouts */
+.flex-row {
+  flex-direction: row;    
+}
+
+.flex-column {
+  flex-direction: column; 
+}
+
+/* Ensure both containers can grow */
+.flex-grow {
+  flex-grow: 1;          
+}
+
+/* Control widths for map and chart */
+.half-width {
+  width: 50%;            
+}
+
+.full-width {
+  width: 100%;            
+}
+
+/* Styling for the map container */
+.map-container {
+  border-right: 1px solid #ddd; /* Optional separator between map and chart */
+  z-index: 0;                    /* Make sure map doesn't overlay the header */
+}
+
+/* Styling for the chart container */
+.chart-container {
+  overflow-y: auto;       /* Enable scrolling if the chart content overflows */
+  z-index: 0;             /* Ensure proper stacking order */
+}
+
+/* Ensure header stays on top */
+header {
+  z-index: 10;            /* Keeps the header on top of other elements */
+  position: relative;     /* Ensures header stays in place */
+}
+
 
