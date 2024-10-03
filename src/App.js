@@ -4,38 +4,42 @@ import mapboxgl from 'mapbox-gl';
 import './App.css';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
+import { replaceSpacesWithHyphens } from './utils';
 
-//this token needs to put in .gitigonre
-mapboxgl.accessToken = 'pk.eyJ1IjoiY3RpYW45OTYiLCJhIjoiY20xcTM4YjBxMGJnejJrcTJ3Y2NxZjZuOCJ9.IEBZ5Z7w4tu_IIL22OpJGg';
+const mapboxToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 //MOCK Wave Data
 const waveDataList = [
   {
-    site_name: "Port Kembla",
-    LATITUDE: -34.47,
-    LONGITUDE: 151.02,
-    WPDI: 172, // Peak wave direction in degrees
-    WHTH: 2.58 // Wave height in meters
+    siteName: "Port Kembla",
+    latitude: -34.47,
+    longitude: 151.02,
+    wavePeakDirectionInDegrees: 172, // Peak wave direction in degrees
+    waveHeightInMesters: 2.58 // Wave height in meters
   },
 
   {
-    site_name:"Sydney Harbour",
-    LATITUDE: -33.85,
-    LONGITUDE: 151.21,
-    WPDI: 165,
-    WHTH: 3.12 
+    siteName:"Sydney Harbour",
+    latitude: -33.85,
+    longitude: 151.21,
+    wavePeakDirectionInDegrees: 165,
+    waveHeightInMesters: 3.12
   },
 
   {
-    site_name:"Bondi Beach",
-    LATITUDE: -33.89,
-    LONGITUDE: 151.28,
-    WPDI: 160,
-    WHTH: 1.95 
+    siteName:"Bondi Beach",
+    latitude: -33.89,
+    longitude: 151.28,
+    wavePeakDirectionInDegrees: 160,
+    waveHeightInMesters: 1.95 
   },
 ]
 
 export default function App() {
+
+  const waveHeightIncrement_1 = 1;
+  const waveHeightIncrement_2 = 0.5;
+  const waveDirectionIncrement = 10;
   
   const mapContainer = useRef(null);
   const map = useRef(null);
@@ -44,16 +48,20 @@ export default function App() {
   // this is for chart
   const options = {
     chart: { type: 'line' },
-    title: { text: `Wave Data for ${selectedWaveData?.site_name}` },
+    title: { text: `Wave Data for ${selectedWaveData?.siteName}` },
     xAxis: { categories: ['Time1', 'Time2', 'Time3'] },
     series: [
-      { name: 'Wave Height (m)', data: [selectedWaveData?.WHTH, selectedWaveData?.WHTH + 1, selectedWaveData?.WHTH + 0.5] },
-      { name: 'Wave Direction (°)', data: [selectedWaveData?.WPDI, selectedWaveData?.WPDI + 10, selectedWaveData?.WPDI] }
+      { name: 'Wave Height (m)', data: [selectedWaveData?.WHTH, selectedWaveData?.WHTH + waveHeightIncrement_1, selectedWaveData?.WHTH + waveHeightIncrement_2] },
+      { name: 'Wave Direction (°)', data: [selectedWaveData?.WPDI, selectedWaveData?.WPDI + waveDirectionIncrement, selectedWaveData?.WPDI] }
     ]
   };
 
   useEffect(() => {
     if (map.current) return; // Ensure the map is initialized only once
+
+    //I put mapbox token here.
+    mapboxgl.accessToken = mapboxToken;
+
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: 'mapbox://styles/mapbox/streets-v12',
@@ -64,14 +72,14 @@ export default function App() {
     // Add markers and popups
     waveDataList.forEach((waveData) => {
       const marker = new mapboxgl.Marker()
-        .setLngLat([waveData.LONGITUDE, waveData.LATITUDE])
+        .setLngLat([waveData.longitude, waveData.latitude])
         .setPopup(
           new mapboxgl.Popup({ offset: 25 })
             .setHTML(
               `<h3>${waveData.site_name}</h3>
                 <p>Wave Height: ${waveData.WHTH} meters</p>
                 <p>Wave Direction: ${waveData.WPDI}°</p>
-                <button id="detail-btn-${waveData.site_name.replace(/\s+/g, '-')}" 
+                <button id="detail-btn-${replaceSpacesWithHyphens(waveData.siteName)}" 
                   class="bg-sky-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                   See Detail Graph
                 </button>`
@@ -81,7 +89,7 @@ export default function App() {
   
       // Attach the event listener when the popup opens
       marker.getPopup().on('open', () => {
-        const buttonId = `detail-btn-${waveData.site_name.replace(/\s+/g, '-')}`;
+        const buttonId = `detail-btn-${replaceSpacesWithHyphens(waveData.siteName)}`;
         const detailButton = document.getElementById(buttonId);
   
         if (detailButton) {
@@ -96,7 +104,7 @@ export default function App() {
 
   return (
     
-    <div className="page-container">
+    <div className="flex column">
       <Header /> {/* Ensure the header is displayed above the map and chart */}
       <div className={`main-container ${showGraph ? 'flex-row' : 'flex-column'}`}>
         {/* Map Container */}
