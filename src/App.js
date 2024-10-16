@@ -118,7 +118,7 @@ export default function App() {
         {showGraph && (
           <div className="chart-container half-width flex-grow">
             <HighchartsReact highcharts={Highcharts} options={options} />
-            {/* 添加返回全屏地图的按钮 */}
+            {/* add return button to back full map model */}
             <button 
               onClick={() => setShowGraph(false)} 
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
