@@ -3,7 +3,7 @@ import logo from './assets/logo.png';
 
 const Header = () => {
     return (
-        <header className="bg-white text-sky-800 py-4">
+        <header className="bg-white text-sky-800 py-4 height:20%">
         <nav className="container mx-auto flex justify-between items-center px-4">
             
             <div className="flex items-center">
