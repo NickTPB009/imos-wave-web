@@ -20,9 +20,11 @@ h1 {
   font-size: 2rem;
 }
 
-.map-container {
-  height: 900px;
-}
+/* .map-container { */
+  /* flex-grow: 1 */
+  /* border-right: 1px solid #ddd; */
+  /* z - index: 0 */
+/* } */
 
 /* Ensure the container is a flexbox */
 .page-container {
@@ -64,12 +66,14 @@ h1 {
 
 /* Styling for the map container */
 .map-container {
+  flex-grow: 1;
   border-right: 1px solid #ddd; /* Optional separator between map and chart */
   z-index: 0;                    /* Make sure map doesn't overlay the header */
 }
 
 /* Styling for the chart container */
 .chart-container {
+  flex-grow: 1;
   overflow-y: auto;       /* Enable scrolling if the chart content overflows */
   z-index: 0;             /* Ensure proper stacking order */
 }

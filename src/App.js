@@ -51,8 +51,8 @@ export default function App() {
     title: { text: `Wave Data for ${selectedWaveData?.siteName}` },
     xAxis: { categories: ['Time1', 'Time2', 'Time3'] },
     series: [
-      { name: 'Wave Height (m)', data: [selectedWaveData?.WHTH, selectedWaveData?.WHTH + waveHeightIncrement_1, selectedWaveData?.WHTH + waveHeightIncrement_2] },
-      { name: 'Wave Direction (°)', data: [selectedWaveData?.WPDI, selectedWaveData?.WPDI + waveDirectionIncrement, selectedWaveData?.WPDI] }
+      { name: 'Wave Height (m)', data: [selectedWaveData?.waveHeightInMesters, selectedWaveData?.waveHeightInMesters + waveHeightIncrement_1, selectedWaveData?.waveHeightInMesters + waveHeightIncrement_2] },
+      { name: 'Wave Direction (°)', data: [selectedWaveData?.wavePeakDirectionInDegrees, selectedWaveData?.wavePeakDirectionInDegrees + waveDirectionIncrement, selectedWaveData?.wavePeakDirectionInDegrees] }
     ]
   };
 
@@ -64,7 +64,7 @@ export default function App() {
 
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
-      style: 'mapbox://styles/mapbox/streets-v12',
+      style: 'mapbox://styles/mapbox/navigation-day-v1',
       center: [151.21, -33.85],
       zoom: 3.5
     });
@@ -76,9 +76,9 @@ export default function App() {
         .setPopup(
           new mapboxgl.Popup({ offset: 25 })
             .setHTML(
-              `<h3>${waveData.site_name}</h3>
-                <p>Wave Height: ${waveData.WHTH} meters</p>
-                <p>Wave Direction: ${waveData.WPDI}°</p>
+              `<h3>${waveData.siteName}</h3>
+                <p>Wave Height: ${waveData.waveHeightInMesters} meters</p>
+                <p>Wave Direction: ${waveData.wavePeakDirectionInDegrees}°</p>
                 <button id="detail-btn-${replaceSpacesWithHyphens(waveData.siteName)}" 
                   class="bg-sky-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                   See Detail Graph
@@ -104,7 +104,7 @@ export default function App() {
 
   return (
     
-    <div className="flex column">
+    <div className="page-container">
       <Header /> {/* Ensure the header is displayed above the map and chart */}
       <div className={`main-container ${showGraph ? 'flex-row' : 'flex-column'}`}>
         {/* Map Container */}
@@ -118,6 +118,12 @@ export default function App() {
         {showGraph && (
           <div className="chart-container half-width flex-grow">
             <HighchartsReact highcharts={Highcharts} options={options} />
+            {/* 添加返回全屏地图的按钮 */}
+            <button 
+              onClick={() => setShowGraph(false)} 
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+              Back to Full Map
+            </button>
           </div>
         )}
       </div>
