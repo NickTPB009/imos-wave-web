@@ -1,0 +1,4989 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_468c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-07T20:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 48,
+        "WHTH": 0.14
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_468d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-07T20:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 40,
+        "WHTH": 0.14
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_468e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-07T21:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 48,
+        "WHTH": 0.15
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_468f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-07T21:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 92,
+        "WHTH": 0.18
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4690",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-07T22:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 52,
+        "WHTH": 0.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4691",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-07T22:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 36,
+        "WHTH": 0.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4692",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-07T23:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 36,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4693",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-07T23:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4694",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T00:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4695",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T00:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4696",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T01:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 16,
+        "WHTH": 0.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4697",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T01:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4698",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T02:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 4,
+        "WHTH": 0.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4699",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T02:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 356,
+        "WHTH": 0.47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_469a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T03:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 356,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_469b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T03:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 348,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_469c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T04:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 356,
+        "WHTH": 0.42
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_469d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T04:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 356,
+        "WHTH": 0.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_469e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T05:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 348,
+        "WHTH": 0.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_469f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T05:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 0,
+        "WHTH": 0.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46a0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T06:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 4,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46a1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T06:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46a2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T07:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46a3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T07:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46a4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T08:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46a5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T08:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.48
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46a6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T09:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46a7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T09:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46a8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T10:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 16,
+        "WHTH": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46a9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T10:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46aa",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T11:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46ab",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T11:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.48
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46ac",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T12:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 16,
+        "WHTH": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46ad",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T12:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 16,
+        "WHTH": 0.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46ae",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T13:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.53
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46af",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T13:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46b0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T14:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46b1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T14:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46b2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T15:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46b3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T15:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46b4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T16:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 0,
+        "WHTH": 0.45
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46b5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T16:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46b6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T17:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46b7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T17:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.45
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46b8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T18:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46b9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T18:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.43
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46ba",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T19:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46bb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T19:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46bc",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T20:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 36,
+        "WHTH": 0.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46bd",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T20:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46be",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T21:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46bf",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T21:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46c0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T22:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46c1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T22:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 36,
+        "WHTH": 0.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46c2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T23:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 40,
+        "WHTH": 0.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46c3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-08T23:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 52,
+        "WHTH": 0.36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46c4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T00:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 52,
+        "WHTH": 0.36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46c5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T00:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 48,
+        "WHTH": 0.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46c6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T01:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 56,
+        "WHTH": 0.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46c7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T01:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 60,
+        "WHTH": 0.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46c8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T02:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 44,
+        "WHTH": 0.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46c9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T02:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 44,
+        "WHTH": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46ca",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T03:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 48,
+        "WHTH": 0.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46cb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T03:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.42
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46cc",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T04:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.42
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46cd",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T04:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 4,
+        "WHTH": 0.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46ce",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T05:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 16,
+        "WHTH": 0.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46cf",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T05:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46d0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T06:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46d1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T06:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46d2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T07:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 4,
+        "WHTH": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46d3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T07:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46d4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T08:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46d5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T08:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 16,
+        "WHTH": 0.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46d6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T09:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 4,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46d7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T09:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46d8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T10:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46d9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T10:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46da",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T11:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46db",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T11:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46dc",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T12:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 48,
+        "WHTH": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46dd",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T12:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 52,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46de",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T13:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 44,
+        "WHTH": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46df",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T13:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46e0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T14:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 48,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46e1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T14:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 44,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46e2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T15:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46e3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T15:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46e4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T16:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46e5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T16:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46e6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T17:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 36,
+        "WHTH": 0.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46e7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T17:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 52,
+        "WHTH": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46e8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T18:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 64,
+        "WHTH": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46e9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T18:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 52,
+        "WHTH": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46ea",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T19:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 48,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46eb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T19:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 56,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46ec",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T20:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 60,
+        "WHTH": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46ed",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T20:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 48,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46ee",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T21:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 56,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46ef",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T21:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 76,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46f0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T22:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 60,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46f1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T22:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 84,
+        "WHTH": 0.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46f2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T23:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 84,
+        "WHTH": 0.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46f3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-09T23:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46f4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T00:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46f5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T00:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46f6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T01:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 92,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46f7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T01:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 80,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46f8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T02:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46f9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T02:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 80,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46fa",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T03:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 76,
+        "WHTH": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46fb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T03:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 80,
+        "WHTH": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46fc",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T04:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 60,
+        "WHTH": 0.22
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46fd",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T04:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 76,
+        "WHTH": 0.22
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46fe",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T05:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 60,
+        "WHTH": 0.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_46ff",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T05:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 68,
+        "WHTH": 0.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4700",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T06:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 76,
+        "WHTH": 0.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4701",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T06:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 60,
+        "WHTH": 0.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4702",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T07:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 84,
+        "WHTH": 0.22
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4703",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T07:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 84,
+        "WHTH": 0.22
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4704",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T08:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4705",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T08:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.23
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4706",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T09:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 92,
+        "WHTH": 0.24
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4707",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T09:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4708",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T10:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4709",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T10:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_470a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T11:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_470b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T11:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_470c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T12:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_470d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T12:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_470e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T13:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_470f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T13:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4710",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T14:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4711",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T14:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.43
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4712",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T15:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4713",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T15:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4714",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T16:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4715",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T16:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 92,
+        "WHTH": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4716",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T17:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4717",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T17:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.45
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4718",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T18:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.42
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4719",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T18:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_471a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T19:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_471b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T19:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 92,
+        "WHTH": 0.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_471c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T20:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_471d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T20:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_471e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T21:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_471f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T21:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 92,
+        "WHTH": 0.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4720",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T22:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4721",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T22:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.52
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4722",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T23:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.53
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4723",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-10T23:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4724",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T00:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4725",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T00:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.55
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4726",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T01:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4727",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T01:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.52
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4728",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T02:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4729",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T02:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_472a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T03:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 92,
+        "WHTH": 0.45
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_472b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T03:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_472c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T04:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_472d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T04:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 92,
+        "WHTH": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_472e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T05:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_472f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T05:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4730",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T06:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4731",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T06:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4732",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T07:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 92,
+        "WHTH": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4733",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T07:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 92,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4734",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T08:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4735",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T08:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4736",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T09:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4737",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T09:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4738",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T10:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 120,
+        "WHTH": 0.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4739",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T10:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_473a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T11:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_473b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T11:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_473c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T12:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_473d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T12:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_473e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T13:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_473f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T13:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4740",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T14:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4741",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T14:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4742",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T15:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4743",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T15:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 96,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4744",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T16:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4745",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T16:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4746",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T17:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.42
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4747",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T17:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4748",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T18:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4749",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T18:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_474a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T19:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_474b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T19:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_474c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T20:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_474d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T20:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_474e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T21:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_474f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T21:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 120,
+        "WHTH": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4750",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T22:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4751",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T22:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 92,
+        "WHTH": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4752",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T23:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4753",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-11T23:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4754",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T00:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4755",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T00:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4756",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T01:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 120,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4757",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T01:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4758",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T02:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4759",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T02:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 116,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_475a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T03:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 84,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_475b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T03:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 76,
+        "WHTH": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_475c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T04:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 80,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_475d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T04:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_475e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T05:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.23
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_475f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T05:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.24
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4760",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T06:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 48,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4761",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T06:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 48,
+        "WHTH": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4762",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T07:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 48,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4763",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T07:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 56,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4764",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T08:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 52,
+        "WHTH": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4765",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T08:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 44,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4766",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T09:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 52,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4767",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T09:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 60,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4768",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T10:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 76,
+        "WHTH": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4769",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T10:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 56,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_476a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T11:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 72,
+        "WHTH": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_476b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T11:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 60,
+        "WHTH": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_476c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T12:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 48,
+        "WHTH": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_476d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T12:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_476e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T13:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 36,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_476f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T13:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 52,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4770",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T14:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 56,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4771",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T14:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 44,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4772",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T15:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 36,
+        "WHTH": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4773",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T15:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 44,
+        "WHTH": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4774",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T16:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 36,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4775",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T16:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4776",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T17:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4777",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T17:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4778",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T18:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4779",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T18:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 36,
+        "WHTH": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_477a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T19:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.22
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_477b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T19:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_477c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T20:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.18
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_477d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T21:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 88,
+        "WHTH": 0.19
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_477e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T21:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 72,
+        "WHTH": 0.16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_477f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T22:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 76,
+        "WHTH": 0.17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4780",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T22:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 92,
+        "WHTH": 0.16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4781",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T23:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 84,
+        "WHTH": 0.16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4782",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-12T23:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 84,
+        "WHTH": 0.16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4783",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T00:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 80,
+        "WHTH": 0.17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4784",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T00:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.18
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4785",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T01:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.19
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4786",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T01:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 44,
+        "WHTH": 0.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4787",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T02:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 0,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4788",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T02:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4789",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T03:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_478a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T03:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 0,
+        "WHTH": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_478b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T04:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_478c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T04:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 4,
+        "WHTH": 0.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_478d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T05:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_478e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T05:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_478f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T06:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4790",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T06:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 0,
+        "WHTH": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4791",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T07:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 4,
+        "WHTH": 0.48
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4792",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T07:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 356,
+        "WHTH": 0.55
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4793",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T08:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 356,
+        "WHTH": 0.58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4794",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T08:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.55
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4795",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T09:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 4,
+        "WHTH": 0.57
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4796",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T09:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.52
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4797",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T10:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4798",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T10:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.56
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4799",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T11:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 16,
+        "WHTH": 0.64
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_479a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T11:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.57
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_479b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T12:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_479c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T12:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_479d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T13:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 16,
+        "WHTH": 0.48
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_479e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T13:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.45
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_479f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T14:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47a0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T14:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47a1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T15:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47a2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T15:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47a3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T16:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.45
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47a4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T16:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47a5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T17:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 16,
+        "WHTH": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47a6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T17:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.45
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47a7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T18:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47a8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T18:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47a9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T19:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.43
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47aa",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T19:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.43
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47ab",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T20:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47ac",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T20:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47ad",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T21:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47ae",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T21:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 16,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47af",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T22:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47b0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T22:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47b1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T23:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47b2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-13T23:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.24
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47b3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T00:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47b4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T00:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47b5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T01:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.24
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47b6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T01:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47b7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T02:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47b8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T02:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47b9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T03:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47ba",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T03:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47bb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T04:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47bc",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T04:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47bd",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T05:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47be",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T05:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 16,
+        "WHTH": 0.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47bf",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T06:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47c0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T06:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.48
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47c1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T07:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47c2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T07:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.61
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47c3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T08:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 4,
+        "WHTH": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47c4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T08:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 8,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47c5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T09:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 12,
+        "WHTH": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47c6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T09:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 4,
+        "WHTH": 0.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47c7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T10:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 4,
+        "WHTH": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47c8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T10:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 0,
+        "WHTH": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47c9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T11:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 4,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47ca",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T11:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 16,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47cb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T12:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47cc",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T12:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 16,
+        "WHTH": 0.23
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47cd",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T13:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 24,
+        "WHTH": 0.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47ce",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T13:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 20,
+        "WHTH": 0.22
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47cf",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T14:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47d0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T15:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.19
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47d1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T15:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47d2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T16:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 44,
+        "WHTH": 0.13
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47d3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T16:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 40,
+        "WHTH": 0.14
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47d4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T17:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 32,
+        "WHTH": 0.14
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47d5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T17:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 28,
+        "WHTH": 0.13
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47d6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T18:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 36,
+        "WHTH": 0.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47d7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T18:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 40,
+        "WHTH": 0.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47d8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T19:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 36,
+        "WHTH": 0.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47d9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T19:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 84,
+        "WHTH": 0.11
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47da",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T20:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 40,
+        "WHTH": 0.13
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47db",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T20:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 76,
+        "WHTH": 0.16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47dc",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T21:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 152,
+        "WHTH": 0.18
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47dd",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T21:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 148,
+        "WHTH": 0.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47de",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T22:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 152,
+        "WHTH": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47df",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T22:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 148,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47e0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T23:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 148,
+        "WHTH": 0.47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47e1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-14T23:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 148,
+        "WHTH": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47e2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T00:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 148,
+        "WHTH": 0.56
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47e3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T00:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 140,
+        "WHTH": 0.59
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47e4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T01:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 144,
+        "WHTH": 0.64
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47e5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T01:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 140,
+        "WHTH": 0.63
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47e6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T02:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 140,
+        "WHTH": 0.65
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47e7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T02:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 152,
+        "WHTH": 0.69
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47e8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T03:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 140,
+        "WHTH": 0.69
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47e9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T03:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 140,
+        "WHTH": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47ea",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T04:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 136,
+        "WHTH": 0.71
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47eb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T04:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 140,
+        "WHTH": 0.62
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47ec",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T05:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 140,
+        "WHTH": 0.74
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47ed",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T05:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 124,
+        "WHTH": 0.73
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47ee",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T06:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 128,
+        "WHTH": 0.75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47ef",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T06:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 116,
+        "WHTH": 0.78
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47f0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T07:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 120,
+        "WHTH": 0.73
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47f1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T07:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 116,
+        "WHTH": 0.74
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47f2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T08:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 120,
+        "WHTH": 0.71
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47f3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T08:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.67
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47f4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T09:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 124,
+        "WHTH": 0.69
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47f5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T09:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.63
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47f6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T10:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.64
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47f7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T10:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47f8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T11:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.64
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47f9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T11:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47fa",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T12:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.59
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47fb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T12:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.6
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47fc",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T13:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.61
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47fd",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T13:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.59
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47fe",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T14:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.6
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_47ff",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T14:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.61
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4800",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T15:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4801",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T15:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4802",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T16:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 112,
+        "WHTH": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4803",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T16:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4804",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T17:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4805",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T17:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4806",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T18:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 100,
+        "WHTH": 0.45
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4807",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T18:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.43
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4808",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T19:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4809",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T19:30:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 104,
+        "WHTH": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_480a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Hay Point",
+        "TIME": "2022-12-15T20:00:00Z",
+        "LATITUDE": -21.27,
+        "LONGITUDE": 149.32,
+        "WPDI": 108,
+        "WHTH": 0.39
+      }
+    }
+  ],
+  "totalFeatures": 383,
+  "numberMatched": 383,
+  "numberReturned": 383,
+  "timeStamp": "2024-11-06T04:32:17.168Z",
+  "crs": null
+}

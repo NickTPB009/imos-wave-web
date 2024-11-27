@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-27a8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-07T20:00:00Z",
+        "LATITUDE": -34.47,
+        "LONGITUDE": 151.02,
+        "WPDI": 180,
+        "WHTH": 1.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-27a7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-07T21:00:00Z",
+        "LATITUDE": -34.47,
+        "LONGITUDE": 151.02,
+        "WPDI": 180,
+        "WHTH": 2.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-27a6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-07T22:00:00Z",
+        "LATITUDE": -34.47,
+        "LONGITUDE": 151.02,
+        "WPDI": 172,
+        "WHTH": 2.58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-27a5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-07T23:00:00Z",
+        "LATITUDE": -34.48,
+        "LONGITUDE": 151.02,
+        "WPDI": 184,
+        "WHTH": 2.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-27a4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-08T00:00:00Z",
+        "LATITUDE": -34.48,
+        "LONGITUDE": 151.02,
+        "WPDI": 184,
+        "WHTH": 2.47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-27a3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-08T01:00:00Z",
+        "LATITUDE": -34.48,
+        "LONGITUDE": 151.02,
+        "WPDI": 172,
+        "WHTH": 2.52
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-27a2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-14T09:00:00Z",
+        "LATITUDE": -34.47,
+        "LONGITUDE": 151.02,
+        "WPDI": 172,
+        "WHTH": 1.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-27a1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-14T10:00:00Z",
+        "LATITUDE": -34.48,
+        "LONGITUDE": 151.02,
+        "WPDI": 184,
+        "WHTH": 1.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-27a0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-07T20:00:00Z",
+        "LATITUDE": -34.47,
+        "LONGITUDE": 151.02,
+        "WPDI": 180,
+        "WHTH": 1.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-279f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-07T21:00:00Z",
+        "LATITUDE": -34.47,
+        "LONGITUDE": 151.02,
+        "WPDI": 180,
+        "WHTH": 2.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-279e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-07T22:00:00Z",
+        "LATITUDE": -34.47,
+        "LONGITUDE": 151.02,
+        "WPDI": 172,
+        "WHTH": 2.58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-279d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-07T23:00:00Z",
+        "LATITUDE": -34.48,
+        "LONGITUDE": 151.02,
+        "WPDI": 184,
+        "WHTH": 2.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-279c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-08T00:00:00Z",
+        "LATITUDE": -34.48,
+        "LONGITUDE": 151.02,
+        "WPDI": 184,
+        "WHTH": 2.47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-279b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-08T01:00:00Z",
+        "LATITUDE": -34.48,
+        "LONGITUDE": 151.02,
+        "WPDI": 172,
+        "WHTH": 2.52
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-279a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-14T09:00:00Z",
+        "LATITUDE": -34.47,
+        "LONGITUDE": 151.02,
+        "WPDI": 172,
+        "WHTH": 1.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid-4688e648_1920d235927_-2799",
+      "geometry": null,
+      "properties": {
+        "site_name": "Port Kembla",
+        "TIME": "2022-12-14T10:00:00Z",
+        "LATITUDE": -34.48,
+        "LONGITUDE": 151.02,
+        "WPDI": 184,
+        "WHTH": 1.4
+      }
+    }
+  ],
+  "totalFeatures": 16,
+  "numberMatched": 16,
+  "numberReturned": 16,
+  "timeStamp": "2024-09-20T02:37:09.436Z",
+  "crs": null
+}

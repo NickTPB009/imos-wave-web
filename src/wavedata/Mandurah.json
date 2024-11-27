@@ -1,0 +1,348 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1aa0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-08T18:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 236,
+        "WHTH": 1.71
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a9f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-08T21:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 240,
+        "WHTH": 1.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a9e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-09T00:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 256,
+        "WHTH": 1.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a9d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-09T06:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 252,
+        "WHTH": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a9c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-09T12:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 244,
+        "WHTH": 1.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a9b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-09T15:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 248,
+        "WHTH": 1.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a9a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-09T21:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 256,
+        "WHTH": 1.66
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a99",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-10T00:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 260,
+        "WHTH": 1.47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a98",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-10T06:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 256,
+        "WHTH": 1.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a97",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-10T09:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 252,
+        "WHTH": 1.72
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a96",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-10T15:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 252,
+        "WHTH": 2.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a95",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-10T18:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 252,
+        "WHTH": 1.79
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a94",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-11T00:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 252,
+        "WHTH": 1.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a93",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-11T03:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 256,
+        "WHTH": 1.23
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a92",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-11T12:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 248,
+        "WHTH": 1.78
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a91",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-11T15:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 224,
+        "WHTH": 1.74
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a90",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-12T15:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 248,
+        "WHTH": 1.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a8f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-12T21:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 124,
+        "WHTH": 1.1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a8e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-13T09:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 248,
+        "WHTH": 0.99
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a8d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-13T12:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 248,
+        "WHTH": 0.96
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a8c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-14T03:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 252,
+        "WHTH": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a8b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-14T06:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 248,
+        "WHTH": 0.84
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a8a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-14T18:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 244,
+        "WHTH": 1.17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a89",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-15T03:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 236,
+        "WHTH": 0.69
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a88",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-15T06:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 252,
+        "WHTH": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--70485029_192ffadddf0_-1a87",
+      "geometry": null,
+      "properties": {
+        "site_name": "Mandurah",
+        "TIME": "2022-12-15T18:00:00Z",
+        "LATITUDE": -32.45,
+        "LONGITUDE": 115.57,
+        "WPDI": 264,
+        "WHTH": 1.14
+      }
+    }
+  ],
+  "totalFeatures": 26,
+  "numberMatched": 26,
+  "numberReturned": 26,
+  "timeStamp": "2024-11-06T05:05:20.650Z",
+  "crs": null
+}
