@@ -1,0 +1,4963 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d0b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-07T20:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d0c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-07T20:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d0d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-07T21:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.72
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d0e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-07T21:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 0.81
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d0f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-07T22:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d10",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-07T22:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d11",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-07T23:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 0.75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d12",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-07T23:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 0.82
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d13",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T00:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 0.78
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d14",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T00:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d15",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T01:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 0.84
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d16",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T01:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 176,
+        "WHTH": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d17",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T02:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 168,
+        "WHTH": 0.93
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d18",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T02:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 176,
+        "WHTH": 0.97
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d19",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T03:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 48,
+        "WHTH": 1.01
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d1a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T03:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 56,
+        "WHTH": 1.01
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d1b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T04:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 48,
+        "WHTH": 1.03
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d1c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T04:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 56,
+        "WHTH": 1.01
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d1d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T05:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 48,
+        "WHTH": 1.01
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d1e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T05:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 56,
+        "WHTH": 0.93
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d1f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T06:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 60,
+        "WHTH": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d20",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T06:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 56,
+        "WHTH": 1.02
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d21",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T07:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 64,
+        "WHTH": 1.05
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d22",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T08:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 56,
+        "WHTH": 1.02
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d23",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T09:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 48,
+        "WHTH": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d24",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T09:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 48,
+        "WHTH": 1.13
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d25",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T10:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 52,
+        "WHTH": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d26",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T10:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 48,
+        "WHTH": 1.06
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d27",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T11:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 48,
+        "WHTH": 1.11
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d28",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T11:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 52,
+        "WHTH": 1.1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d29",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T12:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 56,
+        "WHTH": 1.06
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d2a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T12:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 64,
+        "WHTH": 1.1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d2b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T13:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 64,
+        "WHTH": 1.01
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d2c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T13:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 60,
+        "WHTH": 1.08
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d2d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T14:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 64,
+        "WHTH": 0.91
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d2e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T14:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 64,
+        "WHTH": 0.83
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d2f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T15:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 60,
+        "WHTH": 0.79
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d30",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T15:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 56,
+        "WHTH": 0.74
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d31",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T16:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 56,
+        "WHTH": 0.67
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d32",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T16:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 128,
+        "WHTH": 0.67
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d33",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T17:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 132,
+        "WHTH": 0.66
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d34",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T17:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 60,
+        "WHTH": 0.63
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d35",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T18:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d36",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T18:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 136,
+        "WHTH": 0.63
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d37",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T19:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 0.68
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d38",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T19:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 100,
+        "WHTH": 0.75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d39",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T20:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 196,
+        "WHTH": 0.82
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d3a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T20:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 188,
+        "WHTH": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d3b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T21:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 136,
+        "WHTH": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d3c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T21:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 184,
+        "WHTH": 0.91
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d3d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T22:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 0.91
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d3e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T22:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 0.92
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d3f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T23:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 168,
+        "WHTH": 0.98
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d40",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-08T23:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 0.98
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d41",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T00:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d42",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T00:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.06
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d43",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T01:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 1.07
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d44",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T01:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.11
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d45",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T02:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 1.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d46",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T02:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d47",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T03:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.23
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d48",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T03:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.23
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d49",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T04:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 168,
+        "WHTH": 1.19
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d4a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T04:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 168,
+        "WHTH": 1.13
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d4b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T05:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d4c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T05:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 168,
+        "WHTH": 1.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d4d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T06:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 1.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d4e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T06:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d4f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T07:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 1.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d50",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T07:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 184,
+        "WHTH": 1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d51",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T08:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 176,
+        "WHTH": 1.36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d52",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T08:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d53",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T09:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 1.24
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d54",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T09:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d55",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T10:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.24
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d56",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T10:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d57",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T11:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 180,
+        "WHTH": 1.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d58",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T11:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d59",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T12:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d5a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T12:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 168,
+        "WHTH": 1.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d5b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T13:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d5c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T13:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d5d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T14:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d5e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T14:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d5f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T15:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 1.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d60",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T15:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d61",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T16:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d62",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T16:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d63",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T17:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 176,
+        "WHTH": 1.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d64",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T17:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d65",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T18:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 1.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d66",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T18:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d67",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T19:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 1.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d68",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T19:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d69",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T20:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d6a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T20:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d6b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T21:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d6c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T21:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 1.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d6d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T22:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 1.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d6e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T22:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d6f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T23:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d70",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-09T23:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 168,
+        "WHTH": 1.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d71",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T00:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d72",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T00:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d73",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T01:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 168,
+        "WHTH": 1.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d74",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T01:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d75",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T02:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 1.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d76",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T02:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d77",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T03:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d78",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T03:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 1.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d79",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T04:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d7a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T04:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 168,
+        "WHTH": 1.23
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d7b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T05:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d7c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T05:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d7d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T06:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d7e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T06:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d7f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T07:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d80",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T07:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d81",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T08:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 172,
+        "WHTH": 1.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d82",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T08:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d83",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T09:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d84",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T10:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d85",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T10:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d86",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T11:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d87",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T11:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d88",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T12:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d89",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T12:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d8a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T13:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d8b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T13:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 176,
+        "WHTH": 1.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d8c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T14:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d8d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T14:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d8e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T15:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d8f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T15:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 1.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d90",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T16:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 1.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d91",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T16:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d92",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T17:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 168,
+        "WHTH": 1.53
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d93",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T17:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d94",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T18:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d95",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T18:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d96",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T19:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 168,
+        "WHTH": 1.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d97",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T19:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 168,
+        "WHTH": 1.52
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d98",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T20:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d99",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T20:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.52
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d9a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T21:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d9b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T21:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d9c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T22:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.53
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d9d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T22:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.57
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d9e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T23:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.53
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4d9f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-10T23:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4da0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T00:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 176,
+        "WHTH": 1.6
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4da1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T00:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4da2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T01:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.57
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4da3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T01:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4da4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T02:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4da5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T02:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4da6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T03:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.56
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4da7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T03:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4da8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T04:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4da9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T04:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4daa",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T05:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 136,
+        "WHTH": 1.48
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dab",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T05:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 140,
+        "WHTH": 1.53
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dac",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T06:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dad",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T06:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dae",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T07:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.43
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4daf",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T07:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 136,
+        "WHTH": 1.53
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4db0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T08:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 136,
+        "WHTH": 1.64
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4db1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T08:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4db2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T09:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 140,
+        "WHTH": 1.43
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4db3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T09:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 140,
+        "WHTH": 1.48
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4db4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T10:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4db5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T11:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 136,
+        "WHTH": 1.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4db6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T11:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 140,
+        "WHTH": 1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4db7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T12:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4db8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T12:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4db9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T13:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dba",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T13:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 140,
+        "WHTH": 1.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dbb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T14:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dbc",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T14:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dbd",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T15:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.42
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dbe",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T15:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 136,
+        "WHTH": 1.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dbf",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T16:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 132,
+        "WHTH": 1.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dc0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T16:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dc1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T17:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.45
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dc2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T17:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dc3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T18:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dc4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T18:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dc5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T19:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dc6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T19:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dc7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T20:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 136,
+        "WHTH": 1.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dc8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T20:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dc9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T21:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 140,
+        "WHTH": 1.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dca",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T21:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 136,
+        "WHTH": 1.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dcb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T22:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.24
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dcc",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T22:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dcd",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T23:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 140,
+        "WHTH": 1.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dce",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-11T23:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dcf",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T00:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.19
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dd0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T00:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.13
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dd1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T01:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dd2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T01:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 152,
+        "WHTH": 1.13
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dd3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T02:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dd4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T02:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.08
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dd5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T03:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 164,
+        "WHTH": 1.17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dd6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T03:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dd7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T04:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dd8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T04:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 160,
+        "WHTH": 1.09
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dd9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T05:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.24
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dda",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T05:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4ddb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T06:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4ddc",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T06:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4ddd",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T07:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 156,
+        "WHTH": 1.15
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dde",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T07:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 136,
+        "WHTH": 1.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4ddf",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T08:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 1.24
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4de0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T08:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4de1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T09:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 1.17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4de2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T09:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 140,
+        "WHTH": 1.1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4de3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T10:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 140,
+        "WHTH": 1.16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4de4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T10:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 140,
+        "WHTH": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4de5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T11:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 136,
+        "WHTH": 1.05
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4de6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T11:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 140,
+        "WHTH": 1.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4de7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T12:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4de8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T12:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 1.15
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4de9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T13:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 1.04
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dea",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T13:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 104,
+        "WHTH": 1.07
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4deb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T14:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 1.06
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dec",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T14:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4ded",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T15:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dee",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T15:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 1.11
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4def",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T16:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4df0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T16:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 1.05
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4df1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T17:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.98
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4df2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T17:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4df3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T18:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 1.04
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4df4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T18:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 1.02
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4df5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T19:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4df6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T19:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4df7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T20:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4df8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T20:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.98
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4df9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T21:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.96
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dfa",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T21:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.92
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dfb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T22:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.92
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dfc",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T22:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dfd",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T23:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.98
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dfe",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-12T23:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.92
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4dff",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T00:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e00",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T00:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e01",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T01:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.96
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e02",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T01:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.96
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e03",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T02:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e04",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T02:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.91
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e05",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T03:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.93
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e06",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T03:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e07",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T04:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e08",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T04:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e09",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T05:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.83
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e0a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T05:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 128,
+        "WHTH": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e0b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T06:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e0c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T06:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e0d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T07:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.82
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e0e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T07:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.91
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e0f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T08:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e10",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T08:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 144,
+        "WHTH": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e11",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T09:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 132,
+        "WHTH": 0.92
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e12",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T09:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 132,
+        "WHTH": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e13",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T10:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 128,
+        "WHTH": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e14",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T10:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e15",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T11:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 132,
+        "WHTH": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e16",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T11:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e17",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T12:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 128,
+        "WHTH": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e18",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T12:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.83
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e19",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T13:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 132,
+        "WHTH": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e1a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T13:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 132,
+        "WHTH": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e1b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T14:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.93
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e1c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T14:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e1d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T15:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.96
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e1e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T15:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.83
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e1f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T16:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.81
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e20",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T16:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e21",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T17:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.91
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e22",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T17:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e23",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T18:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 128,
+        "WHTH": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e24",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T18:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e25",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T19:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e26",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T19:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.98
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e27",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T20:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 132,
+        "WHTH": 0.93
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e28",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T20:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.93
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e29",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T21:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.91
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e2a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T21:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e2b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T22:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e2c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T22:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 104,
+        "WHTH": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e2d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T23:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.79
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e2e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-13T23:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 104,
+        "WHTH": 0.84
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e2f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T00:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 100,
+        "WHTH": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e30",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T00:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 92,
+        "WHTH": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e31",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T01:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 100,
+        "WHTH": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e32",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T01:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e33",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T02:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 104,
+        "WHTH": 0.78
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e34",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T02:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e35",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T03:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 104,
+        "WHTH": 0.72
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e36",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T03:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 96,
+        "WHTH": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e37",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T04:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.74
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e38",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T04:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.69
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e39",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T05:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.74
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e3a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T05:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.79
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e3b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T06:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.72
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e3c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T06:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.77
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e3d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T07:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 128,
+        "WHTH": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e3e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T07:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 132,
+        "WHTH": 0.75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e3f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T08:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e40",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T08:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 132,
+        "WHTH": 0.78
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e41",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T09:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 128,
+        "WHTH": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e42",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T09:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e43",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T10:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e44",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T10:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.77
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e45",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T11:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 136,
+        "WHTH": 0.81
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e46",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T11:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 132,
+        "WHTH": 0.81
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e47",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T12:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 136,
+        "WHTH": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e48",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T12:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e49",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T13:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 0.84
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e4a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T13:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e4b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T14:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 148,
+        "WHTH": 0.77
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e4c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T14:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.83
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e4d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T15:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e4e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T15:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 132,
+        "WHTH": 0.78
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e4f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T16:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e50",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T16:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e51",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T17:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.79
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e52",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T17:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 132,
+        "WHTH": 0.83
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e53",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T18:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e54",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T18:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e55",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T19:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e56",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T19:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.92
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e57",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T20:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e58",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T20:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.82
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e59",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T21:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e5a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T21:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e5b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T22:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 84,
+        "WHTH": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e5c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T22:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.92
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e5d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T23:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.91
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e5e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-14T23:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 96,
+        "WHTH": 0.92
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e5f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T00:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e60",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T00:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e61",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T01:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e62",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T01:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 0.96
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e63",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T02:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 104,
+        "WHTH": 0.84
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e64",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T02:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e65",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T03:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.82
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e66",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T03:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 104,
+        "WHTH": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e67",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T04:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 1.05
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e68",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T04:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 100,
+        "WHTH": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e69",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T05:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 104,
+        "WHTH": 0.97
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e6a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T05:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.99
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e6b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T06:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 0.93
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e6c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T06:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 0.98
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e6d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T07:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 96,
+        "WHTH": 1.01
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e6e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T07:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 1.04
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e6f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T08:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 1.07
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e70",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T08:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 1.04
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e71",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T09:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 1.17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e72",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T09:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 1.08
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e73",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T10:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 1.09
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e74",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T10:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e75",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T11:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 1.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e76",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T11:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 1.18
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e77",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T12:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 1.07
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e78",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T12:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e79",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T13:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e7a",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T13:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 1.16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e7b",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T14:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 1.14
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e7c",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T14:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 1.17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e7d",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T15:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 124,
+        "WHTH": 1.1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e7e",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T15:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 120,
+        "WHTH": 1.1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e7f",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T16:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 1.16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e80",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T16:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e81",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T17:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 116,
+        "WHTH": 1.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e82",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T17:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 1.18
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e83",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T18:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 1.11
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e84",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T18:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 1.17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e85",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T19:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 1.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e86",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T19:30:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 108,
+        "WHTH": 1.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_4e87",
+      "geometry": null,
+      "properties": {
+        "site_name": "Wide Bay",
+        "TIME": "2022-12-15T20:00:00Z",
+        "LATITUDE": -25.77,
+        "LONGITUDE": 153.2,
+        "WPDI": 112,
+        "WHTH": 1.21
+      }
+    }
+  ],
+  "totalFeatures": 381,
+  "numberMatched": 381,
+  "numberReturned": 381,
+  "timeStamp": "2024-11-06T04:54:42.600Z",
+  "crs": null
+}

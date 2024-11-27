@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51b0",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-08T00:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 256,
+        "WHTH": 1.45
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51b1",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-09T03:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 256,
+        "WHTH": 1.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51b2",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-09T18:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 252,
+        "WHTH": 1.81
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51b3",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-10T15:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 256,
+        "WHTH": 2.78
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51b4",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-10T18:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 248,
+        "WHTH": 2.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51b5",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-11T06:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 252,
+        "WHTH": 1.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51b6",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-11T09:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 244,
+        "WHTH": 1.84
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51b7",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-11T12:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 204,
+        "WHTH": 1.95
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51b8",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-11T21:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 216,
+        "WHTH": 1.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51b9",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-12T06:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 252,
+        "WHTH": 1.07
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51ba",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-13T03:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 100,
+        "WHTH": 1.47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51bb",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-13T06:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 120,
+        "WHTH": 1.62
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51bc",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-13T18:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 236,
+        "WHTH": 1.06
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51bd",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-14T21:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 244,
+        "WHTH": 1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51be",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-15T00:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 248,
+        "WHTH": 1.15
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aodn_wave_nrt_v2_timeseries_data.fid--c36ef62_192ffa05ba4_51bf",
+      "geometry": null,
+      "properties": {
+        "site_name": "Rottnest Island",
+        "TIME": "2022-12-15T03:00:00Z",
+        "LATITUDE": -32.1,
+        "LONGITUDE": 115.4,
+        "WPDI": 248,
+        "WHTH": 0.88
+      }
+    }
+  ],
+  "totalFeatures": 16,
+  "numberMatched": 16,
+  "numberReturned": 16,
+  "timeStamp": "2024-11-06T04:59:06.153Z",
+  "crs": null
+}
