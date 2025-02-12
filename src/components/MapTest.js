@@ -143,12 +143,13 @@ const Map = ({ location }) => {
       align: 'left', 
     },
     xAxis: {
-      type: 'datetime', // 设置 xAxis 类型为 datetime
+      type: 'datetime', 
     title: {
       text: 'Time',
     },
     labels: {
-      format: '{value:%e %b %Y %H:%M}', // 自定义时间标签格式
+      // format: '{value:%e %b %Y}',
+      format: '{value:%e %b %Y %H:%M}', // Customized time formate
     },
     },
     yAxis: {
@@ -156,11 +157,21 @@ const Map = ({ location }) => {
         text: 'Wave Height (m)',
       },
     },
+    plotOptions: {
+      windbarb: {
+        vectorLength: 9, 
+        color: '#007aff'  
+      }
+    },
     series: [
       {
         type: 'line',
         name: 'Wave Height',
-        data: selectedLandmark.slice(-48).map((landmark) => landmark.WHTH),
+        data: selectedLandmark.map((landmark) => 
+          ({
+          x: Date.parse(landmark.TIME),
+          y: landmark.WHTH
+        })),
         tooltip: {
           valueSuffix: ' m',
         },
@@ -168,12 +179,15 @@ const Map = ({ location }) => {
       {
         type: 'windbarb',
         name: 'Wave Direction',
-        data: selectedLandmark.slice(-48).map((landmark) => 
+        data: selectedLandmark.map((landmark) => 
           ({
           x: Date.parse(landmark.TIME),
-          value: landmark.WHTH,
+          value: landmark.WPDI,
           direction: landmark.WPDI,
         })),
+        tooltip: {
+          valueSuffix: ' °',
+        },
       },
     ],
   } : null;
