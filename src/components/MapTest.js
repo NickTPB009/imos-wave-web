@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
-
 import albatrossBayData from '../wavedata/AlbatrossBay.json';
 import capeSorellData from '../wavedata/CapeSorell.json';
 import portKemblaData from '../wavedata/PortKembla.json';
@@ -10,17 +9,40 @@ import wideBayData from '../wavedata/WideBay.json';
 import rottnestIslandData from '../wavedata/RottnestIsland.json';
 import cottesloeData from '../wavedata/Cottesloe.json';
 import mandurahData from '../wavedata/Mandurah.json';
-
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import HighchartsWindbarb from 'highcharts/modules/windbarb';
-
 import { formatDate } from './formatDate'; 
 
 HighchartsWindbarb(Highcharts);
 
 // Mapbox access token
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
+
+const createPopupContent = (landmark) => {
+  const container = document.createElement('div');
+
+  container.innerHTML = `
+    <h2 style="text-align: center; font-weight: bold;">${landmark.site_name}</h2>
+    <p>Time: ${formatDate(landmark.TIME)}</p>
+    <p>Latitude: ${landmark.LATITUDE}</p>
+    <p>Longitude: ${landmark.LONGITUDE}</p>
+    <p>Wave Direction (WPDI): ${landmark.WPDI}°</p>
+    <p>Wave Height (WHTH): ${landmark.WHTH} meters</p>
+    <div style="text-align: center;">
+      <button class="detail-graph-btn bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2">Detail Graph</button>
+    </div>
+  `;
+
+  const button = container.querySelector('.detail-graph-btn');
+  if (button) {
+    button.addEventListener('click', () => {
+      window.dispatchEvent(new CustomEvent('detailGraph', { detail: landmark.site_name }));
+    });
+  }
+
+  return container;
+};
 
 // Map Component
 const Map = ({ location }) => {
@@ -31,6 +53,7 @@ const Map = ({ location }) => {
   const [selectedLandmark, setSelectedLandmark] = useState(null);
   const [showSidebar, setShowSidebar] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const markerRef = useRef([]);
 
   useEffect(() => {
     // Extract site_name, LATITUDE, LONGITUDE, TIME, WPDI, and WHTH from each JSON file
@@ -53,41 +76,42 @@ const Map = ({ location }) => {
     const wideBayLandmarks = extractLandmarks(wideBayData);
     const rottnestIslandLandmarks = extractLandmarks(rottnestIslandData);
     const cottesloeLandmarks = extractLandmarks(cottesloeData);
-    const mandurahLmarks = extractLandmarks(mandurahData);
+    const mandurahLandmarks = extractLandmarks(mandurahData);
 
-    setLandmarks([...albatrossBayLandmarks, ...capeSorellLandmarks, ...portKemblaLandmarks, ...capeduCouedicLandmarks, ...hayPointLandmarks, ...wideBayLandmarks, ...rottnestIslandLandmarks, ...cottesloeLandmarks, ...mandurahLmarks]);
+    setLandmarks([...albatrossBayLandmarks, ...capeSorellLandmarks, ...portKemblaLandmarks, ...capeduCouedicLandmarks, ...hayPointLandmarks, ...wideBayLandmarks, ...rottnestIslandLandmarks, ...cottesloeLandmarks, ...mandurahLandmarks ]);
   }, []);
+  
+  // Initialize the map
+  useEffect(() => {
+    map.current = new mapboxgl.Map({
+      container: mapContainer.current,
+      style: 'mapbox://styles/mapbox/navigation-day-v1',
+      center: [133.7751, -25.2744], // Australia's coordinates
+      zoom: 3, 
+    });
+
+    // Add zoom and rotation controls to the map
+    map.current.addControl(new mapboxgl.NavigationControl());
+
+    // Cleanup function to remove the map instance when the component is unloaded
+    return () => {
+      if (map.current) {
+      map.current.remove();
+      }
+    };
+  }, []); //An empty dependency array ensures that it is run only once.
 
   useEffect(() => {
-    if (!map.current) {
-      // Initialize the map
-      map.current = new mapboxgl.Map({
-        container: mapContainer.current,
-        style: 'mapbox://styles/mapbox/navigation-day-v1',
-        center: [133.7751, -25.2744], // Australia's coordinates
-        zoom: 3, 
-      });
-
-      // Add zoom and rotation controls to the map
-      map.current.addControl(new mapboxgl.NavigationControl());
-    }
+    //Remove past land marker
+    markerRef.current.forEach((marker) => marker.remove());
+    markerRef.current = [];
 
     // Add landmarks to the map
     landmarks.forEach((landmark) => {
       const marker = new mapboxgl.Marker()
         .setLngLat([landmark.LONGITUDE, landmark.LATITUDE])
         .setPopup(
-          new mapboxgl.Popup({ offset: 25 }).setHTML(
-            `<h2 style="text-align: center; font-weight: bold;">${landmark.site_name}</h2>
-             <p>Time: ${formatDate(landmark.TIME)}</p>
-             <p>Latitude: ${landmark.LATITUDE}</p>
-             <p>Longitude: ${landmark.LONGITUDE}</p>
-             <p>Wave Direction (WPDI): ${landmark.WPDI}°</p>
-             <p>Wave Height (WHTH): ${landmark.WHTH} meters</p>
-             <div style="text-align: center;">
-               <button class="bg-[#075985] text-white font-bold py-2 px-4 rounded mt-2" onclick="window.dispatchEvent(new CustomEvent('detailGraph', { detail: '${landmark.site_name}' }))">Detail Graph</button>
-             </div>`
-          )
+          new mapboxgl.Popup({ offset: 25 }).setDOMContent(createPopupContent(landmark))
         )
         .addTo(map.current);
 
@@ -99,6 +123,8 @@ const Map = ({ location }) => {
           essential: true, // This ensures the animation is smooth
         });
       });
+      //Save marker for future usage 
+      markerRef.current.push(marker);
     });
   }, [landmarks]); // Re-run when landmarks change
 
@@ -111,7 +137,6 @@ const Map = ({ location }) => {
     };
 
     window.addEventListener('detailGraph', handleDetailGraph);
-
     return () => {
       window.removeEventListener('detailGraph', handleDetailGraph);
     };
@@ -133,64 +158,67 @@ const Map = ({ location }) => {
   }, [location, landmarks]);
 
   // Filter data to get only the last 24 hours (48 records assuming every half hour)
-  const chartOptions = selectedLandmark && selectedLandmark.length ? {
-    title: {
-      text: `Observed wave in ${selectedLandmark[0].site_name}`,
-      align: 'left'
-    },
-    subtitle: {
-      text:'Source: <a href="https://oceancurrent.aodn.org.au/index.php" target="_blank">IMOS OceanCurrent</a>',
-      align: 'left', 
-    },
-    xAxis: {
-      type: 'datetime', 
-    title: {
-      text: 'Time',
-    },
-    labels: {
-      // format: '{value:%e %b %Y}',
-      format: '{value:%e %b %Y %H:%M}', // Customized time formate
-    },
-    },
-    yAxis: {
-      title: {
-        text: 'Wave Height (m)',
-      },
-    },
-    plotOptions: {
-      windbarb: {
-        vectorLength: 9, 
-        color: '#007aff'  
-      }
-    },
-    series: [
-      {
+  const chartOptions = React.useMemo(() => {
+    if (!selectedLandmark || selectedLandmark.length === 0) return null;
+    return {
+      chart: {
         type: 'line',
-        name: 'Wave Height',
-        data: selectedLandmark.map((landmark) => 
-          ({
-          x: Date.parse(landmark.TIME),
-          y: landmark.WHTH
-        })),
-        tooltip: {
-          valueSuffix: ' m',
+        zoomType: 'x', // 启用横向缩放
+      },
+      title: {
+        text: `Observed wave data at ${selectedLandmark[0].site_name}`,
+        align: 'left',
+      },
+      subtitle: {
+        text: 'Source: <a href="https://oceancurrent.aodn.org.au/index.php" target="_blank">IMOS OceanCurrent</a>',
+        align: 'left',
+      },
+      xAxis: {
+        type: 'datetime',
+        title: {
+          text: 'Time (UTC)',
+        },
+        labels: {
+          format: '{value:%e %b %Y %H:%M}', // customize time format
         },
       },
-      {
-        type: 'windbarb',
-        name: 'Wave Direction',
-        data: selectedLandmark.map((landmark) => 
-          ({
-          x: Date.parse(landmark.TIME),
-          value: landmark.WPDI,
-          direction: landmark.WPDI,
-        })),
-        tooltip: {
-          valueSuffix: ' °',
+      yAxis: [{
+        title: {
+          text: 'Wave Height (m)',
         },
-      },
-    ],
-  } : null;
+      }],
+      series: [
+        {
+          type: 'line',
+          name: 'Wave Height',
+          data: selectedLandmark.map((landmark) => ({
+            x: Date.parse(landmark.TIME),
+            y: landmark.WHTH,
+          })),
+          tooltip: {
+            valueSuffix: ' m',
+          },
+        },
+        {
+          type: 'windbarb',
+          name: 'Wave Direction',
+          data: selectedLandmark.map((landmark) => 
+            ({
+            x: Date.parse(landmark.TIME),
+            value: 10,
+            direction: landmark.WPDI,
+          })),
+          marker: {
+            symbol: 'arrow',
+            rotation: 0,
+          },
+          tooltip: {
+            valueSuffix: ' °',
+          },
+        },
+      ],
+    }
+  }, [selectedLandmark]); 
 
   // Resize chart when switching fullscreen mode
   useEffect(() => {

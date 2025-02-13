@@ -12,9 +12,14 @@ import mandurahData from '../wavedata/Mandurah.json';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import HighchartsWindbarb from 'highcharts/modules/windbarb';
+import Exporting from 'highcharts/modules/exporting';      
+import ExportData from 'highcharts/modules/export-data';     
 import { formatDate } from './formatDate'; 
 
+
 HighchartsWindbarb(Highcharts);
+Exporting(Highcharts); 
+ExportData(Highcharts); 
 
 // Mapbox access token
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
@@ -54,6 +59,56 @@ const Map = ({ location }) => {
   const [showSidebar, setShowSidebar] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const markerRef = useRef([]);
+  const [exportMenuVisible, setExportMenuVisible] = useState(false);
+
+  // 用于 Highcharts 日期范围选择的状态
+  const [chartStartDate, setChartStartDate] = useState('');
+  const [chartEndDate, setChartEndDate] = useState('');
+
+  // 定义 Export 按钮点击处理：切换下拉菜单显示状态
+  const handleExportClick = () => {
+    setExportMenuVisible((prev) => !prev);
+  };
+
+  // 定义各个导出选项的处理函数
+  const exportOptions = {
+    print: () => {
+      if (chartComponentRef.current && chartComponentRef.current.chart) {
+        chartComponentRef.current.chart.print();
+      }
+      setExportMenuVisible(false);
+    },
+    png: () => {
+      if (chartComponentRef.current && chartComponentRef.current.chart) {
+        chartComponentRef.current.chart.exportChart({ type: 'image/png' });
+      }
+      setExportMenuVisible(false);
+    },
+    jpeg: () => {
+      if (chartComponentRef.current && chartComponentRef.current.chart) {
+        chartComponentRef.current.chart.exportChart({ type: 'image/jpeg' });
+      }
+      setExportMenuVisible(false);
+    },
+    svg: () => {
+      if (chartComponentRef.current && chartComponentRef.current.chart) {
+        chartComponentRef.current.chart.exportChart({ type: 'image/svg+xml' });
+      }
+      setExportMenuVisible(false);
+    },
+    csv: () => {
+      if (chartComponentRef.current && chartComponentRef.current.chart) {
+        chartComponentRef.current.chart.downloadCSV();
+      }
+      setExportMenuVisible(false);
+    },
+    xls: () => {
+      if (chartComponentRef.current && chartComponentRef.current.chart) {
+        chartComponentRef.current.chart.downloadXLS();
+      }
+      setExportMenuVisible(false);
+    },
+  };
 
   useEffect(() => {
     // Extract site_name, LATITUDE, LONGITUDE, TIME, WPDI, and WHTH from each JSON file
@@ -78,7 +133,16 @@ const Map = ({ location }) => {
     const cottesloeLandmarks = extractLandmarks(cottesloeData);
     const mandurahLandmarks = extractLandmarks(mandurahData);
 
-    setLandmarks([...albatrossBayLandmarks, ...capeSorellLandmarks, ...portKemblaLandmarks, ...capeduCouedicLandmarks, ...hayPointLandmarks, ...wideBayLandmarks, ...rottnestIslandLandmarks, ...cottesloeLandmarks, ...mandurahLandmarks ]);
+    setLandmarks([
+      ...albatrossBayLandmarks, 
+      ...capeSorellLandmarks, 
+      ...portKemblaLandmarks, 
+      ...capeduCouedicLandmarks, 
+      ...hayPointLandmarks, 
+      ...wideBayLandmarks, 
+      ...rottnestIslandLandmarks, 
+      ...cottesloeLandmarks, 
+      ...mandurahLandmarks ]);
   }, []);
   
   // Initialize the map
@@ -160,10 +224,13 @@ const Map = ({ location }) => {
   // Filter data to get only the last 24 hours (48 records assuming every half hour)
   const chartOptions = React.useMemo(() => {
     if (!selectedLandmark || selectedLandmark.length === 0) return null;
+
+    console.log('Selected Landmark times:', selectedLandmark.map(l => Date.parse(l.TIME)));
+
     return {
       chart: {
         type: 'line',
-        zoomType: 'x', // 启用横向缩放
+        zoomType: 'x', // Enable horizontal scaling
       },
       title: {
         text: `Observed wave data at ${selectedLandmark[0].site_name}`,
@@ -187,18 +254,6 @@ const Map = ({ location }) => {
           text: 'Wave Height (m)',
         },
       }],
-      // tooltip: {
-      //   formatter: function () {
-      //     // console.log(this)
-      //     // 显示详细的时间、海浪高度和方向
-      //     return `
-      //       <b>Time:</b> ${Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x)}<br/>
-      //       <b>Wave Height:</b> ${this.y} m<br/>
-      //       /*<b>Wave Direction:</b> {this.point.direction ? this.point.direction + '°' : 'N/A'}*/
-      //     `;
-      //   },
-      //   shared: true,
-      // },
       series: [
         {
           type: 'line',
@@ -242,21 +297,229 @@ const Map = ({ location }) => {
     }
   }, [isFullscreen]);
 
+  // 定义一个函数，当用户点击 Apply 按钮时，更新图表 xAxis 范围
+  const applyDateRange = () => {
+    const minTimestamp = Date.parse(chartStartDate);
+    const maxTimestamp = Date.parse(chartEndDate);
+    console.log('Start:', chartStartDate, minTimestamp);
+    console.log('End:', chartEndDate, maxTimestamp);
+    
+    // 筛选出在选定范围内的数据
+    const filteredData = selectedLandmark.filter((landmark) => {
+      const t = Date.parse(landmark.TIME);
+      return t >= minTimestamp && t <= maxTimestamp;
+    });
+    
+    if (filteredData.length === 0) {
+      alert("No data available for the selected time range.");
+      return; // 不更新图表
+    }
+    
+    if (chartComponentRef.current && chartComponentRef.current.chart) {
+      chartComponentRef.current.chart.xAxis[0].update({
+        min: minTimestamp,
+        max: maxTimestamp,
+      });
+    } else {
+      console.log('Chart ref is not ready!!');
+    }
+  };
+
+  // 定义重置函数，当用户点击 Reset 按钮时清空输入，并重置图表显示全部数据
+  const resetDateRange = () => {
+    setChartStartDate('');
+    setChartEndDate('');
+    if (chartComponentRef.current && chartComponentRef.current.chart) {
+      chartComponentRef.current.chart.xAxis[0].update({
+        min: null,
+        max: null,
+      });
+    }
+  };
+  
+
   return (
     <div style={{ display: 'flex', height: '100vh' }}>
-      <div ref={mapContainer} className="map-container" style={{ width: showSidebar && !isFullscreen ? '75%' : '100%', height: '100%' }} />
+      <div 
+        ref={mapContainer} 
+        className="map-container" 
+        style={{ width: showSidebar && !isFullscreen ? '75%' : '100%', height: '100%' }} 
+      />
       {showSidebar && selectedLandmark && selectedLandmark.length > 0 && (
-        <div className="sidebar" style={{
-          width: isFullscreen ? '100%' : '25%',
-          padding: '20px',
-          backgroundColor: '#f8f9fa',
-          boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-          height: '100%',
-          position: isFullscreen ? 'absolute' : 'relative',
-          top: 0,
-          right: 0,
-          zIndex: isFullscreen ? 1000 : 'auto',
-        }}>
+        <div 
+          className="sidebar" 
+          style={{
+            width: isFullscreen ? '100%' : '25%',
+            padding: '20px',
+            backgroundColor: '#f8f9fa',
+            boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+            height: '100%',
+            position: isFullscreen ? 'absolute' : 'relative',
+            top: 0,
+            right: 0,
+            zIndex: isFullscreen ? 1000 : 'auto',
+            }}
+        >
+          {/* 日期选择控件 */}
+          <div style={{ marginBottom: '1rem' }}>
+            <label>
+              Start Date:{' '}
+              <input
+                type="date"
+                value={chartStartDate}
+                onChange={(e) => setChartStartDate(e.target.value)}
+              />
+            </label>
+            <label style={{ marginLeft: '1rem' }}>
+              End Date:{' '}
+              <input
+                type="date"
+                value={chartEndDate}
+                onChange={(e) => setChartEndDate(e.target.value)}
+              />
+            </label>
+            <button
+              onClick={applyDateRange}
+              style={{
+                marginLeft: '1rem',
+                backgroundColor: '#2563eb',
+                color: 'white',
+                fontWeight: 'bold',
+                padding: '0.5rem 1rem',
+                borderRadius: '0.25rem',
+              }}
+            >
+              Apply
+            </button>
+            {/* Reset 按钮 */}
+            <button
+              onClick={resetDateRange}
+              style={{
+                marginLeft: '1rem',
+                backgroundColor: '#dc2626',
+                color: 'white',
+                fontWeight: 'bold',
+                padding: '0.5rem 1rem',
+                borderRadius: '0.25rem',
+              }}
+            >
+              Reset
+            </button>
+            {/* Export 按钮 */}
+            <button
+                onClick={handleExportClick}
+                style={{
+                  marginLeft: '1rem',
+                  backgroundColor: '#10B981',
+                  color: 'white',
+                  fontWeight: 'bold',
+                  padding: '0.5rem 1rem',
+                  borderRadius: '0.25rem',
+                }}
+              >
+                Export
+              </button>
+              {/* Export 下拉菜单 */}
+              {exportMenuVisible && (
+                <div
+                  style={{
+                    position: 'absolute',
+                    top: '3rem',
+                    right: 0,
+                    backgroundColor: '#fff',
+                    border: '1px solid #ccc',
+                    borderRadius: '4px',
+                    boxShadow: '0 2px 5px rgba(0,0,0,0.15)',
+                    zIndex: 1001,
+                  }}
+                >
+                  <button
+                    onClick={exportOptions.print}
+                    style={{
+                      display: 'block',
+                      width: '100%',
+                      padding: '0.5rem 1rem',
+                      border: 'none',
+                      background: 'none',
+                      textAlign: 'left',
+                      cursor: 'pointer',
+                    }}
+                  >
+                    Print chart
+                  </button>
+                  <button
+                    onClick={exportOptions.png}
+                    style={{
+                      display: 'block',
+                      width: '100%',
+                      padding: '0.5rem 1rem',
+                      border: 'none',
+                      background: 'none',
+                      textAlign: 'left',
+                      cursor: 'pointer',
+                    }}
+                  >
+                    Download PNG image
+                  </button>
+                  <button
+                    onClick={exportOptions.jpeg}
+                    style={{
+                      display: 'block',
+                      width: '100%',
+                      padding: '0.5rem 1rem',
+                      border: 'none',
+                      background: 'none',
+                      textAlign: 'left',
+                      cursor: 'pointer',
+                    }}
+                  >
+                    Download JPEG image
+                  </button>
+                  <button
+                    onClick={exportOptions.svg}
+                    style={{
+                      display: 'block',
+                      width: '100%',
+                      padding: '0.5rem 1rem',
+                      border: 'none',
+                      background: 'none',
+                      textAlign: 'left',
+                      cursor: 'pointer',
+                    }}
+                  >
+                    Download SVG vector image
+                  </button>
+                  <button
+                    onClick={exportOptions.csv}
+                    style={{
+                      display: 'block',
+                      width: '100%',
+                      padding: '0.5rem 1rem',
+                      border: 'none',
+                      background: 'none',
+                      textAlign: 'left',
+                      cursor: 'pointer',
+                    }}
+                  >
+                    Download CSV
+                  </button>
+                  <button
+                    onClick={exportOptions.xls}
+                    style={{
+                      display: 'block',
+                      width: '100%',
+                      padding: '0.5rem 1rem',
+                      border: 'none',
+                      background: 'none',
+                      textAlign: 'left',
+                      cursor: 'pointer',
+                    }}
+                  >
+                    Download XLS
+                  </button>
+                </div>
+              )}
+          </div>
           <HighchartsReact
               highcharts={Highcharts}
               options={chartOptions}
