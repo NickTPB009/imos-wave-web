@@ -53,24 +53,22 @@ const createPopupContent = (landmark) => {
 const Map = ({ location }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const chartComponentRef = useRef(null); // Reference for the chart component
+  // 定义一个 state 用来存储当前地图样式
+  const [mapStyle, setMapStyle] = useState('mapbox://styles/mapbox/navigation-day-v1');
+  const chartComponentRef = useRef(null); 
   const [landmarks, setLandmarks] = useState([]);
   const [selectedLandmark, setSelectedLandmark] = useState(null);
   const [showSidebar, setShowSidebar] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const markerRef = useRef([]);
   const [exportMenuVisible, setExportMenuVisible] = useState(false);
-
-  // 用于 Highcharts 日期范围选择的状态
   const [chartStartDate, setChartStartDate] = useState('');
   const [chartEndDate, setChartEndDate] = useState('');
-
-  // 定义 Export 按钮点击处理：切换下拉菜单显示状态
   const handleExportClick = () => {
     setExportMenuVisible((prev) => !prev);
   };
 
-  // 定义各个导出选项的处理函数
+  //Define the processing functions for each export option
   const exportOptions = {
     print: () => {
       if (chartComponentRef.current && chartComponentRef.current.chart) {
@@ -149,7 +147,7 @@ const Map = ({ location }) => {
   useEffect(() => {
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
-      style: 'mapbox://styles/mapbox/navigation-day-v1',
+      style: mapStyle,
       center: [133.7751, -25.2744], // Australia's coordinates
       zoom: 3, 
     });
@@ -164,6 +162,12 @@ const Map = ({ location }) => {
       }
     };
   }, []); //An empty dependency array ensures that it is run only once.
+
+  useEffect(() => {
+      if (map.current) {
+        map.current.setStyle(mapStyle);
+      }
+    }, [mapStyle]);
 
   useEffect(() => {
     //Remove past land marker
@@ -339,12 +343,29 @@ const Map = ({ location }) => {
   
 
   return (
-    <div style={{ display: 'flex', height: '100vh' }}>
+    <div style={{ position: 'relative',display: 'flex', height: '100vh' }}>
       <div 
         ref={mapContainer} 
         className="map-container" 
         style={{ width: showSidebar && !isFullscreen ? '75%' : '100%', height: '100%' }} 
       />
+
+      {/* 样式切换按钮 */}
+      <div style={{ position: 'absolute', bottom: 10, right: 10, zIndex: 10 }}>
+        <button
+          onClick={() => setMapStyle('mapbox://styles/mapbox/standard-satellite')}
+          className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+        >
+          Satellite Layer
+        </button> <br></br>
+        <button
+          onClick={() => setMapStyle('mapbox://styles/mapbox/navigation-day-v1')}
+          className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+        >
+          Default Layer
+        </button>
+      </div>
+
       {showSidebar && selectedLandmark && selectedLandmark.length > 0 && (
         <div 
           className="sidebar" 
@@ -380,145 +401,139 @@ const Map = ({ location }) => {
             </label>
             <button
               onClick={applyDateRange}
-              style={{
-                marginLeft: '1rem',
-                backgroundColor: '#2563eb',
-                color: 'white',
-                fontWeight: 'bold',
-                padding: '0.5rem 1rem',
-                borderRadius: '0.25rem',
-              }}
+              className="
+              ml-4 bg-transparent 
+            hover:bg-blue-500 
+            text-blue-700 font-semibold 
+            hover:text-white py-2 px-4 border 
+            border-blue-500 
+              hover:border-transparent rounded"
             >
               Apply
             </button>
             {/* Reset 按钮 */}
             <button
               onClick={resetDateRange}
-              style={{
-                marginLeft: '1rem',
-                backgroundColor: '#dc2626',
-                color: 'white',
-                fontWeight: 'bold',
-                padding: '0.5rem 1rem',
-                borderRadius: '0.25rem',
-              }}
+              className="
+              ml-4 bg-transparent 
+            hover:bg-blue-500 
+            text-blue-700 font-semibold 
+            hover:text-white py-2 px-4 border 
+            border-blue-500 
+              hover:border-transparent rounded"
             >
               Reset
             </button>
             {/* Export 按钮 */}
+            {/* 包裹 Export 按钮和下拉菜单 */}
+          <div style={{ position: 'relative', display: 'inline-block', marginLeft: '1rem' }}>
             <button
-                onClick={handleExportClick}
+              onClick={handleExportClick}
+              className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+            >
+             Export
+            </button>
+            {exportMenuVisible && (
+              <div
                 style={{
-                  marginLeft: '1rem',
-                  backgroundColor: '#10B981',
-                  color: 'white',
-                  fontWeight: 'bold',
-                  padding: '0.5rem 1rem',
-                  borderRadius: '0.25rem',
+                position: 'absolute',
+                top: 'calc(100% + 0.5rem)', // 位于按钮正下方，加上一定间隔
+                left: 0,
+                width: '200px',
+                backgroundColor: '#fff',
+                border: '1px solid #ccc',
+                borderRadius: '4px',
+                boxShadow: '0 2px 5px rgba(0,0,0,0.15)',
+                zIndex: 1001,
                 }}
               >
-                Export
+              <button
+                onClick={exportOptions.print}
+                style={{
+                  display: 'block',
+                  width: '100%',
+                  padding: '0.5rem 1rem',
+                  border: 'none',
+                  background: 'none',
+                  textAlign: 'left',
+                  cursor: 'pointer',
+                }}
+              >
+                Print chart
               </button>
-              {/* Export 下拉菜单 */}
-              {exportMenuVisible && (
-                <div
-                  style={{
-                    position: 'absolute',
-                    top: '3rem',
-                    right: 0,
-                    backgroundColor: '#fff',
-                    border: '1px solid #ccc',
-                    borderRadius: '4px',
-                    boxShadow: '0 2px 5px rgba(0,0,0,0.15)',
-                    zIndex: 1001,
-                  }}
-                >
-                  <button
-                    onClick={exportOptions.print}
-                    style={{
-                      display: 'block',
-                      width: '100%',
-                      padding: '0.5rem 1rem',
-                      border: 'none',
-                      background: 'none',
-                      textAlign: 'left',
-                      cursor: 'pointer',
-                    }}
-                  >
-                    Print chart
-                  </button>
-                  <button
-                    onClick={exportOptions.png}
-                    style={{
-                      display: 'block',
-                      width: '100%',
-                      padding: '0.5rem 1rem',
-                      border: 'none',
-                      background: 'none',
-                      textAlign: 'left',
-                      cursor: 'pointer',
-                    }}
-                  >
-                    Download PNG image
-                  </button>
-                  <button
-                    onClick={exportOptions.jpeg}
-                    style={{
-                      display: 'block',
-                      width: '100%',
-                      padding: '0.5rem 1rem',
-                      border: 'none',
-                      background: 'none',
-                      textAlign: 'left',
-                      cursor: 'pointer',
-                    }}
-                  >
-                    Download JPEG image
-                  </button>
-                  <button
-                    onClick={exportOptions.svg}
-                    style={{
-                      display: 'block',
-                      width: '100%',
-                      padding: '0.5rem 1rem',
-                      border: 'none',
-                      background: 'none',
-                      textAlign: 'left',
-                      cursor: 'pointer',
-                    }}
-                  >
-                    Download SVG vector image
-                  </button>
-                  <button
-                    onClick={exportOptions.csv}
-                    style={{
-                      display: 'block',
-                      width: '100%',
-                      padding: '0.5rem 1rem',
-                      border: 'none',
-                      background: 'none',
-                      textAlign: 'left',
-                      cursor: 'pointer',
-                    }}
-                  >
-                    Download CSV
-                  </button>
-                  <button
-                    onClick={exportOptions.xls}
-                    style={{
-                      display: 'block',
-                      width: '100%',
-                      padding: '0.5rem 1rem',
-                      border: 'none',
-                      background: 'none',
-                      textAlign: 'left',
-                      cursor: 'pointer',
-                    }}
-                  >
-                    Download XLS
-                  </button>
-                </div>
-              )}
+              <button
+                onClick={exportOptions.png}
+                style={{
+                  display: 'block',
+                  width: '100%',
+                  padding: '0.5rem 1rem',
+                  border: 'none',
+                  background: 'none',
+                  textAlign: 'left',
+                  cursor: 'pointer',
+                }}
+              >
+                Download PNG image
+              </button>
+              <button
+                onClick={exportOptions.jpeg}
+                style={{
+                  display: 'block',
+                  width: '100%',
+                  padding: '0.5rem 1rem',
+                  border: 'none',
+                  background: 'none',
+                  textAlign: 'left',
+                  cursor: 'pointer',
+                }}
+              >
+                Download JPEG image
+              </button>
+              <button
+                onClick={exportOptions.svg}
+                style={{
+                  display: 'block',
+                  width: '100%',
+                  padding: '0.5rem 1rem',
+                  border: 'none',
+                  background: 'none',
+                  textAlign: 'left',
+                  cursor: 'pointer',
+                }}
+              >
+                Download SVG vector image
+              </button>
+              <button
+                onClick={exportOptions.csv}
+                style={{
+                  display: 'block',
+                  width: '100%',
+                  padding: '0.5rem 1rem',
+                  border: 'none',
+                  background: 'none',
+                  textAlign: 'left',
+                  cursor: 'pointer',
+                }}
+              >
+                Download CSV
+              </button>
+              <button
+                onClick={exportOptions.xls}
+                style={{
+                  display: 'block',
+                  width: '100%',
+                  padding: '0.5rem 1rem',
+                  border: 'none',
+                  background: 'none',
+                  textAlign: 'left',
+                  cursor: 'pointer',
+                }}
+              >
+                Download XLS
+              </button>
+              </div>
+            )}
+          </div>
           </div>
           <HighchartsReact
               highcharts={Highcharts}
