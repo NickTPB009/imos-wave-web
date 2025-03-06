@@ -15,6 +15,7 @@ import HighchartsWindbarb from 'highcharts/modules/windbarb';
 import Exporting from 'highcharts/modules/exporting';      
 import ExportData from 'highcharts/modules/export-data';     
 import { formatDate } from './formatDate'; 
+import { FaSatellite, FaMap } from 'react-icons/fa';
 
 
 HighchartsWindbarb(Highcharts);
@@ -53,7 +54,6 @@ const createPopupContent = (landmark) => {
 const Map = ({ location }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  // 定义一个 state 用来存储当前地图样式
   const [mapStyle, setMapStyle] = useState('mapbox://styles/mapbox/navigation-day-v1');
   const chartComponentRef = useRef(null); 
   const [landmarks, setLandmarks] = useState([]);
@@ -62,11 +62,32 @@ const Map = ({ location }) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const markerRef = useRef([]);
   const [exportMenuVisible, setExportMenuVisible] = useState(false);
+  const exportButtonRef = useRef(null);
+  const exportMenuRef = useRef(null);
   const [chartStartDate, setChartStartDate] = useState('');
   const [chartEndDate, setChartEndDate] = useState('');
+  
   const handleExportClick = () => {
     setExportMenuVisible((prev) => !prev);
   };
+
+  // Add a global click listener to close the menu when the click area is not within the export button and menu
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (exportMenuVisible) {
+        if (
+          exportMenuRef.current && !exportMenuRef.current.contains(event.target) &&
+          exportButtonRef.current && !exportButtonRef.current.contains(event.target)
+          ) {
+            setExportMenuVisible(false);
+          }
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [exportMenuVisible]);
 
   //Define the processing functions for each export option
   const exportOptions = {
@@ -301,14 +322,12 @@ const Map = ({ location }) => {
     }
   }, [isFullscreen]);
 
-  // 定义一个函数，当用户点击 Apply 按钮时，更新图表 xAxis 范围
+  // Define a function that updates the chart xAxis range when the user clicks the Apply button
   const applyDateRange = () => {
     const minTimestamp = Date.parse(chartStartDate);
     const maxTimestamp = Date.parse(chartEndDate);
-    console.log('Start:', chartStartDate, minTimestamp);
-    console.log('End:', chartEndDate, maxTimestamp);
     
-    // 筛选出在选定范围内的数据
+    // Filter data within the selected range
     const filteredData = selectedLandmark.filter((landmark) => {
       const t = Date.parse(landmark.TIME);
       return t >= minTimestamp && t <= maxTimestamp;
@@ -316,7 +335,7 @@ const Map = ({ location }) => {
     
     if (filteredData.length === 0) {
       alert("No data available for the selected time range.");
-      return; // 不更新图表
+      return; // Do not update the chart
     }
     
     if (chartComponentRef.current && chartComponentRef.current.chart) {
@@ -329,7 +348,7 @@ const Map = ({ location }) => {
     }
   };
 
-  // 定义重置函数，当用户点击 Reset 按钮时清空输入，并重置图表显示全部数据
+  // Define a reset function to clear the input and reset the chart to display all data when the user clicks the Reset button
   const resetDateRange = () => {
     setChartStartDate('');
     setChartEndDate('');
@@ -350,19 +369,19 @@ const Map = ({ location }) => {
         style={{ width: showSidebar && !isFullscreen ? '75%' : '100%', height: '100%' }} 
       />
 
-      {/* 样式切换按钮 */}
-      <div style={{ position: 'absolute', bottom: 10, right: 10, zIndex: 10 }}>
+      {/* Map Layer Switch Button */}
+      <div style={{ position: 'absolute', bottom: 10, left: 10, zIndex: 10 }}>
         <button
           onClick={() => setMapStyle('mapbox://styles/mapbox/standard-satellite')}
-          className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+          className="bg-blue-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
         >
-          Satellite Layer
-        </button> <br></br>
+          <FaSatellite size={20} />
+        </button> <br></br> <br></br>
         <button
           onClick={() => setMapStyle('mapbox://styles/mapbox/navigation-day-v1')}
-          className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+          className="bg-blue-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
         >
-          Default Layer
+          <FaMap size={20} />
         </button>
       </div>
 
@@ -381,7 +400,7 @@ const Map = ({ location }) => {
             zIndex: isFullscreen ? 1000 : 'auto',
             }}
         >
-          {/* 日期选择控件 */}
+          {/* Date Range Selection Control */}
           <div style={{ marginBottom: '1rem' }}>
             <label>
               Start Date:{' '}
@@ -390,7 +409,7 @@ const Map = ({ location }) => {
                 value={chartStartDate}
                 onChange={(e) => setChartStartDate(e.target.value)}
               />
-            </label>
+            </label> 
             <label style={{ marginLeft: '1rem' }}>
               End Date:{' '}
               <input
@@ -398,7 +417,8 @@ const Map = ({ location }) => {
                 value={chartEndDate}
                 onChange={(e) => setChartEndDate(e.target.value)}
               />
-            </label>
+            </label><br></br>
+            {/* Apply Button */}
             <button
               onClick={applyDateRange}
               className="
@@ -411,7 +431,7 @@ const Map = ({ location }) => {
             >
               Apply
             </button>
-            {/* Reset 按钮 */}
+            {/* Reset Button */}
             <button
               onClick={resetDateRange}
               className="
@@ -424,10 +444,11 @@ const Map = ({ location }) => {
             >
               Reset
             </button>
-            {/* Export 按钮 */}
-            {/* 包裹 Export 按钮和下拉菜单 */}
+            {/* Export Button */}
+            {/* Wrap the Export button and drop-down menu */}
           <div style={{ position: 'relative', display: 'inline-block', marginLeft: '1rem' }}>
             <button
+              ref={exportButtonRef}
               onClick={handleExportClick}
               className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
             >
@@ -435,11 +456,12 @@ const Map = ({ location }) => {
             </button>
             {exportMenuVisible && (
               <div
+              ref={exportMenuRef}
                 style={{
                 position: 'absolute',
-                top: 'calc(100% + 0.5rem)', // 位于按钮正下方，加上一定间隔
+                top: 'calc(100% + 0.5rem)', 
                 left: 0,
-                width: '200px',
+                width: '250px',
                 backgroundColor: '#fff',
                 border: '1px solid #ccc',
                 borderRadius: '4px',
