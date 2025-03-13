@@ -1,0 +1,378 @@
+{
+    "Port Kembla": {
+        "latitude": -34.48,
+        "longitude": 151.02
+    },
+    "Albatross Bay": {
+        "latitude": -12.68,
+        "longitude": 141.68
+    },
+    "Cape Du Couedic": {
+        "latitude": -36.07,
+        "longitude": 136.62
+    },
+    "Cape Sorell": {
+        "latitude": -42.2,
+        "longitude": 145.05
+    },
+    "Batemans Bay": {
+        "latitude": -35.75,
+        "longitude": 150.32
+    },
+    "Coffs Harbour": {
+        "latitude": -30.35,
+        "longitude": 153.28
+    },
+    "Sydney": {
+        "latitude": -33.75,
+        "longitude": 151.42
+    },
+    "Lakes Entrance": {
+        "latitude": -37.9,
+        "longitude": 147.97
+    },
+    "Palm Beach": {
+        "latitude": -28.1,
+        "longitude": 153.48
+    },
+    "Skardon River Outer": {
+        "latitude": -11.75,
+        "longitude": 141.83
+    },
+    "Skardon River Offshore": {
+        "latitude": -11.72,
+        "longitude": 141.72
+    },
+    "North Moreton Bay": {
+        "latitude": -26.9,
+        "longitude": 153.28
+    },
+    "Cairns": {
+        "latitude": -16.73,
+        "longitude": 145.72
+    },
+    "Townsville": {
+        "latitude": -19.18,
+        "longitude": 147.08
+    },
+    "Mooloolaba": {
+        "latitude": -26.57,
+        "longitude": 153.18
+    },
+    "Hay Point": {
+        "latitude": -21.27,
+        "longitude": 149.32
+    },
+    "Emu Park": {
+        "latitude": -23.3,
+        "longitude": 151.07
+    },
+    "Tweed Heads": {
+        "latitude": -28.18,
+        "longitude": 153.58
+    },
+    "Gladstone": {
+        "latitude": -23.9,
+        "longitude": 151.5
+    },
+    "Caloundra": {
+        "latitude": -26.85,
+        "longitude": 153.15
+    },
+    "Bundaberg": {
+        "latitude": -24.67,
+        "longitude": 152.5
+    },
+    "Tweed Offshore": {
+        "latitude": -28.22,
+        "longitude": 153.68
+    },
+    "Mackay": {
+        "latitude": -21.03,
+        "longitude": 149.53
+    },
+    "Wide Bay": {
+        "latitude": -25.77,
+        "longitude": 153.2
+    },
+    "Cape Naturaliste": {
+        "latitude": -33.53,
+        "longitude": 114.77
+    },
+    "Mandurah": {
+        "latitude": -32.45,
+        "longitude": 115.57
+    },
+    "Rottnest Island": {
+        "latitude": -32.1,
+        "longitude": 115.4
+    },
+    "Esperance": {
+        "latitude": -34.0,
+        "longitude": 121.9
+    },
+    "Albany": {
+        "latitude": -35.2,
+        "longitude": 117.73
+    },
+    "Cottesloe": {
+        "latitude": -31.98,
+        "longitude": 115.68
+    },
+    "Jurien": {
+        "latitude": -30.3,
+        "longitude": 114.92
+    },
+    "Eden": {
+        "latitude": -37.25,
+        "longitude": 150.2
+    },
+    "Brisbane": {
+        "latitude": -27.48,
+        "longitude": 153.63
+    },
+    "Byron Bay": {
+        "latitude": -28.87,
+        "longitude": 153.7
+    },
+    "Crowdy Head": {
+        "latitude": -31.82,
+        "longitude": 152.85
+    },
+    "Gold Coast": {
+        "latitude": -27.97,
+        "longitude": 153.45
+    },
+    "Maria Island": {
+        "latitude": -42.55,
+        "longitude": 148.37
+    },
+    "Goodrich Bank 02": {
+        "latitude": -10.31477,
+        "longitude": 129.94827
+    },
+    "Torbay West": {
+        "latitude": -35.06835,
+        "longitude": 117.76872
+    },
+    "Cape Bridgewater": {
+        "latitude": -38.36012,
+        "longitude": 141.26952
+    },
+    "Bengello": {
+        "latitude": -35.88012,
+        "longitude": 150.161
+    },
+    "Broulee": {
+        "latitude": -35.84718,
+        "longitude": 150.18839
+    },
+    "Collaroy": {
+        "latitude": -33.72667,
+        "longitude": 151.30655
+    },
+    "Deeban": {
+        "latitude": -33.88457,
+        "longitude": 151.04277
+    },
+    "Merimbula": {
+        "latitude": -36.90843,
+        "longitude": 149.9166
+    },
+    "Wooli": {
+        "latitude": -29.85727,
+        "longitude": 153.31409
+    },
+    "Port Hedland": {
+        "latitude": -20.17364,
+        "longitude": 118.50814
+    },
+    "Ashburton": {
+        "latitude": -21.5149,
+        "longitude": 115.0321
+    },
+    "Dampier": {
+        "latitude": -20.436,
+        "longitude": 116.731
+    },
+    "King George Sound": {
+        "latitude": -35.07958,
+        "longitude": 117.97825
+    },
+    "Salmon Holes": {
+        "latitude": -35.02757,
+        "longitude": 117.8862
+    },
+    "Torbay Array 01": {
+        "latitude": -35.02782,
+        "longitude": 117.88643
+    },
+    "Torbay Array 02": {
+        "latitude": -35.028,
+        "longitude": 117.88623
+    },
+    "Torbay Array 03": {
+        "latitude": -35.02788,
+        "longitude": 117.88637
+    },
+    "Central": {
+        "latitude": -38.0626,
+        "longitude": 144.8674
+    },
+    "Dutton Way": {
+        "latitude": -38.32053,
+        "longitude": 141.6575
+    },
+    "Indented Head": {
+        "latitude": -38.13602,
+        "longitude": 144.75345
+    },
+    "Inverloch": {
+        "latitude": -38.76262,
+        "longitude": 145.77448
+    },
+    "Mt Eliza": {
+        "latitude": -38.16248,
+        "longitude": 145.05452
+    },
+    "Port Fairy": {
+        "latitude": -38.38153,
+        "longitude": 142.2878
+    },
+    "Rosebud": {
+        "latitude": -38.30153,
+        "longitude": 144.87338
+    },
+    "Sandringham": {
+        "latitude": -37.97908,
+        "longitude": 144.99573
+    },
+    "Werribee": {
+        "latitude": -37.98545,
+        "longitude": 144.77518
+    },
+    "Wilsons Prom": {
+        "latitude": -42.20033,
+        "longitude": 150.18011
+    },
+    "Apollo Bay": {
+        "latitude": -38.75023,
+        "longitude": 143.73592
+    },
+    "Inverloch Inshore": {
+        "latitude": -38.63652,
+        "longitude": 145.78265
+    },
+    "Torbaywest": {
+        "latitude": -35.06842,
+        "longitude": 117.76978
+    },
+    "Ocean Beach": {
+        "latitude": -35.04898,
+        "longitude": 117.36435
+    },
+    "Kangaroo Island": {
+        "latitude": -35.73425,
+        "longitude": 137.58658
+    },
+    "Semaphore": {
+        "latitude": -34.85352,
+        "longitude": 138.35178
+    },
+    "Brighton": {
+        "latitude": -34.98522,
+        "longitude": 138.59793
+    },
+    "Robe Offshore": {
+        "latitude": -34.98555,
+        "longitude": 138.59807
+    },
+    "Robe Inshore": {
+        "latitude": -37.16255,
+        "longitude": 139.75848
+    },
+    "Goodrich Banks": {
+        "latitude": -12.43,
+        "longitude": 130.92
+    },
+    "Cairns Deepwater": {
+        "latitude": -17.23,
+        "longitude": 146.68
+    },
+    "Brisbane Offshore": {
+        "latitude": -27.65,
+        "longitude": 154.45
+    },
+    "Hillarys": {
+        "latitude": -31.8513,
+        "longitude": 115.64633
+    },
+    "Indentedhead": {
+        "latitude": -38.13552,
+        "longitude": 144.75314
+    },
+    "Boambee": {
+        "latitude": -30.35563,
+        "longitude": 153.1087
+    },
+    "Belongil": {
+        "latitude": -33.72688,
+        "longitude": 151.30658
+    },
+    "Byron": {
+        "latitude": -33.88437,
+        "longitude": 151.04301
+    },
+    "Tantabiddi": {
+        "latitude": -21.94328,
+        "longitude": 114.13122
+    },
+    "Coral Bay": {
+        "latitude": -23.15413,
+        "longitude": 113.73697
+    },
+    "North Kangaroo Island": {
+        "latitude": -35.57013,
+        "longitude": 136.92372
+    },
+    "Shark Bay": {
+        "latitude": -25.49282,
+        "longitude": 113.09578
+    },
+    "Tathra": {
+        "latitude": -36.70793,
+        "longitude": 150.00114
+    },
+    "Jurien Bay Offshore": {
+        "latitude": -30.31538,
+        "longitude": 114.9228
+    },
+    "Exmouth Gulf South": {
+        "latitude": -22.16823,
+        "longitude": 114.33798
+    },
+    "Exmouth Gulf North": {
+        "latitude": -21.80197,
+        "longitude": 114.2669
+    },
+    "Dongara Inshore": {
+        "latitude": -31.98162,
+        "longitude": 115.81647
+    },
+    "Cygnet Bay": {
+        "latitude": -16.5025,
+        "longitude": 123.03452
+    },
+    "Cable Beach": {
+        "latitude": -17.90115,
+        "longitude": 122.13347
+    },
+    "North Haven": {
+        "latitude": -34.7981,
+        "longitude": 138.48102
+    },
+    "West Beach": {
+        "latitude": -34.99953,
+        "longitude": 138.57637
+    }
+}
