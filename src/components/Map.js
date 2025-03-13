@@ -1,20 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
-import albatrossBayData from '../wavedata/AlbatrossBay.json';
-import capeSorellData from '../wavedata/CapeSorell.json';
-import portKemblaData from '../wavedata/PortKembla.json';
-import capeduCouedicData from '../wavedata/CapeduCouedic.json';
-import hayPointData from '../wavedata/HayPoint.json';
-import wideBayData from '../wavedata/WideBay.json';
-import rottnestIslandData from '../wavedata/RottnestIsland.json';
-import cottesloeData from '../wavedata/Cottesloe.json';
-import mandurahData from '../wavedata/Mandurah.json';
+import uniqueSites from '../wavedata/cleaned_sites_with_coordinates.json';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import HighchartsWindbarb from 'highcharts/modules/windbarb';
 import Exporting from 'highcharts/modules/exporting';      
 import ExportData from 'highcharts/modules/export-data';     
 import { formatDate } from './formatDate'; 
+import { FaSatellite, FaMap } from 'react-icons/fa';
 
 
 HighchartsWindbarb(Highcharts);
@@ -29,11 +22,11 @@ const createPopupContent = (landmark) => {
 
   container.innerHTML = `
     <h2 style="text-align: center; font-weight: bold;">${landmark.site_name}</h2>
-    <p>Time: ${formatDate(landmark.TIME)}</p>
     <p>Latitude: ${landmark.LATITUDE}</p>
     <p>Longitude: ${landmark.LONGITUDE}</p>
-    <p>Wave Direction (WPDI): ${landmark.WPDI}°</p>
-    <p>Wave Height (WHTH): ${landmark.WHTH} meters</p>
+    ${landmark.TIME ? `<p>Time: ${formatDate(landmark.TIME)}</p>` : ''}
+    ${landmark.WPDI ? `<p>Wave Direction (WPDI): ${landmark.WPDI}°</p>` : ''}
+    ${landmark.WHTH ? `<p>Wave Height (WHTH): ${landmark.WHTH} meters</p>` : ''}
     <div style="text-align: center;">
       <button class="detail-graph-btn bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2">Detail Graph</button>
     </div>
@@ -53,20 +46,39 @@ const createPopupContent = (landmark) => {
 const Map = ({ location }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  // 定义一个 state 用来存储当前地图样式
   const [mapStyle, setMapStyle] = useState('mapbox://styles/mapbox/navigation-day-v1');
   const chartComponentRef = useRef(null); 
   const [landmarks, setLandmarks] = useState([]);
   const [selectedLandmark, setSelectedLandmark] = useState(null);
   const [showSidebar, setShowSidebar] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
-  const markerRef = useRef([]);
   const [exportMenuVisible, setExportMenuVisible] = useState(false);
+  const exportButtonRef = useRef(null);
+  const exportMenuRef = useRef(null);
   const [chartStartDate, setChartStartDate] = useState('');
   const [chartEndDate, setChartEndDate] = useState('');
+  
   const handleExportClick = () => {
     setExportMenuVisible((prev) => !prev);
   };
+
+  // Add a global click listener to close the menu when the click area is not within the export button and menu
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (exportMenuVisible) {
+        if (
+          exportMenuRef.current && !exportMenuRef.current.contains(event.target) &&
+          exportButtonRef.current && !exportButtonRef.current.contains(event.target)
+          ) {
+            setExportMenuVisible(false);
+          }
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [exportMenuVisible]);
 
   //Define the processing functions for each export option
   const exportOptions = {
@@ -108,39 +120,53 @@ const Map = ({ location }) => {
     },
   };
 
+    // 在 Map 组件中，新增一个函数，用于请求实时数据
+  // const fetchRealtimeData = (siteName) => {
+  //   // 构造 GeoServer 请求 URL，根据实际 API 参数调整
+  //   const realtimeUrl = `https://geoserver-123.aodn.org.au/geoserver/ows?typeName=aodn:aodn_wave_nrt_v2_timeseries_data&SERVICE=WFS&outputFormat=application/json&REQUEST=GetFeature&VERSION=1.0.0&PropertyName=TIME,WHTH,WPDI,site_name,LATITUDE,LONGITUDE&cql_filter=site_name='${encodeURIComponent(siteName)}'`;
+
+  //   fetch(realtimeUrl)
+  //     .then(response => {
+  //       if (!response.ok) {
+  //         throw new Error(`HTTP error! status: ${response.status}`);
+  //       }
+  //       return response.json();
+  //     })
+  //     .then(data => {
+  //       // 假设返回的数据格式是 GeoJSON FeatureCollection
+  //       // 根据返回的数据，提取最新一条记录，或者你需要的那部分数据
+  //       const features = data.features;
+  //       if (features && features.length > 0) {
+  //         // 假设最新数据在数组的最后一个元素
+  //         const latestFeature = features[features.length - 1];
+  //         // 这里你可以更新 selectedLandmark 或一个专门的状态来供 Highcharts 使用
+  //         setSelectedLandmark([{
+  //           site_name: latestFeature.properties.site_name,
+  //           LATITUDE: latestFeature.geometry.coordinates[1],
+  //           LONGITUDE: latestFeature.geometry.coordinates[0],
+  //           TIME: latestFeature.properties.TIME,
+  //           WPDI: latestFeature.properties.WPDI,
+  //           WHTH: latestFeature.properties.WHTH,
+  //         }]);
+  //       }
+  //     })
+  //     .catch(error => {
+  //       console.error('Error fetching realtime data:', error);
+  //     });
+  // };
+
   useEffect(() => {
-    // Extract site_name, LATITUDE, LONGITUDE, TIME, WPDI, and WHTH from each JSON file
-    const extractLandmarks = (data) => {
-      return data.features.map((feature) => ({
-        site_name: feature.properties.site_name,
-        LATITUDE: feature.properties.LATITUDE,
-        LONGITUDE: feature.properties.LONGITUDE,
-        TIME: feature.properties.TIME,
-        WPDI: feature.properties.WPDI,
-        WHTH: feature.properties.WHTH,
-      }));
-    };
-
-    const albatrossBayLandmarks = extractLandmarks(albatrossBayData);
-    const capeSorellLandmarks = extractLandmarks(capeSorellData);
-    const portKemblaLandmarks = extractLandmarks(portKemblaData);
-    const capeduCouedicLandmarks = extractLandmarks(capeduCouedicData);
-    const hayPointLandmarks = extractLandmarks(hayPointData);
-    const wideBayLandmarks = extractLandmarks(wideBayData);
-    const rottnestIslandLandmarks = extractLandmarks(rottnestIslandData);
-    const cottesloeLandmarks = extractLandmarks(cottesloeData);
-    const mandurahLandmarks = extractLandmarks(mandurahData);
-
-    setLandmarks([
-      ...albatrossBayLandmarks, 
-      ...capeSorellLandmarks, 
-      ...portKemblaLandmarks, 
-      ...capeduCouedicLandmarks, 
-      ...hayPointLandmarks, 
-      ...wideBayLandmarks, 
-      ...rottnestIslandLandmarks, 
-      ...cottesloeLandmarks, 
-      ...mandurahLandmarks ]);
+    // uniqueSites 的格式是 { "Port Kembla": { latitude: -34.47, longitude: 151.02 }, ... }
+    const landmarksArray = Object.keys(uniqueSites).map((siteName) => ({
+      site_name: siteName,
+      LATITUDE: uniqueSites[siteName].latitude,
+      LONGITUDE: uniqueSites[siteName].longitude,
+      // 这里暂时没有 TIME, WPDI, WHTH 数据，可以留空或设置为 null
+      TIME: null,
+      WPDI: null,
+      WHTH: null,
+    }));
+    setLandmarks(landmarksArray);
   }, []);
   
   // Initialize the map
@@ -169,32 +195,179 @@ const Map = ({ location }) => {
       }
     }, [mapStyle]);
 
+  // Using GeoJSON data sources and aggregations to display landmarks
   useEffect(() => {
-    //Remove past land marker
-    markerRef.current.forEach((marker) => marker.remove());
-    markerRef.current = [];
-
-    // Add landmarks to the map
-    landmarks.forEach((landmark) => {
-      const marker = new mapboxgl.Marker()
-        .setLngLat([landmark.LONGITUDE, landmark.LATITUDE])
-        .setPopup(
-          new mapboxgl.Popup({ offset: 25 }).setDOMContent(createPopupContent(landmark))
-        )
-        .addTo(map.current);
-
-      // Add click event listener to zoom in and center the clicked landmark
-      marker.getElement().addEventListener('click', () => {
-        map.current.flyTo({
-          center: [landmark.LONGITUDE, landmark.LATITUDE],
-          zoom: 6, // Zoom level when clicked
-          essential: true, // This ensures the animation is smooth
+    if (!map.current || !landmarks.length) return;
+  
+    const addClusterLayers = () => {
+      // 转换 landmarks 数组为 GeoJSON FeatureCollection
+      const features = landmarks.map((landmark) => ({
+        type: 'Feature',
+        geometry: {
+          type: 'Point',
+          coordinates: [parseFloat(landmark.LONGITUDE), parseFloat(landmark.LATITUDE)],
+        },
+        properties: {
+          site_name: landmark.site_name,
+          LATITUDE: landmark.LATITUDE,
+          LONGITUDE: landmark.LONGITUDE,
+          TIME: landmark.TIME,
+          WPDI: landmark.WPDI,
+          WHTH: landmark.WHTH,
+        },
+      }));
+      const geojsonData = {
+        type: 'FeatureCollection',
+        features: features,
+      };
+  
+      // 如果数据源已存在，则更新数据；否则添加新数据源及图层
+      if (map.current.getSource('landmarks')) {
+        map.current.getSource('landmarks').setData(geojsonData);
+      } else {
+        map.current.addSource('landmarks', {
+          type: 'geojson',
+          data: geojsonData,
+          cluster: true,
+          clusterMaxZoom: 14,
+          clusterRadius: 50,
         });
-      });
-      //Save marker for future usage 
-      markerRef.current.push(marker);
+        // 添加聚合圆圈图层
+        map.current.addLayer({
+          id: 'clusters',
+          type: 'circle',
+          source: 'landmarks',
+          filter: ['has', 'point_count'],
+          paint: {
+            'circle-color': '#51bbd6',
+            'circle-radius': [
+              'step',
+              ['get', 'point_count'],
+              20,
+              100,
+              30,
+              750,
+              40,
+            ],
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#fff',
+          },
+        });
+        // 添加聚合计数图层
+        map.current.addLayer({
+          id: 'cluster-count',
+          type: 'symbol',
+          source: 'landmarks',
+          filter: ['has', 'point_count'],
+          layout: {
+            'text-field': '{point_count_abbreviated}',
+            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+            'text-size': 12,
+          },
+          paint: {
+            'text-color': '#fff',
+          },
+        });
+        // 添加未聚合点图层
+        map.current.addLayer({
+          id: 'unclustered-point',
+          type: 'circle',
+          source: 'landmarks',
+          filter: ['!', ['has', 'point_count']],
+          paint: {
+            'circle-color': '#f28cb1',
+            'circle-radius': 6,
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#fff',
+          },
+        });
+        // 点击聚合点时放大显示聚合内的点
+        map.current.on('click', 'clusters', (e) => {
+          const features = map.current.queryRenderedFeatures(e.point, {
+            layers: ['clusters'],
+          });
+          const clusterId = features[0].properties.cluster_id;
+          map.current.getSource('landmarks').getClusterExpansionZoom(clusterId, (err, zoom) => {
+            if (err) return;
+            map.current.easeTo({
+              center: features[0].geometry.coordinates,
+              zoom: zoom,
+            });
+          });
+        });
+        // 改变鼠标指针提示聚合点可点击
+        map.current.on('mouseenter', 'clusters', () => {
+          map.current.getCanvas().style.cursor = 'pointer';
+        });
+        map.current.on('mouseleave', 'clusters', () => {
+          map.current.getCanvas().style.cursor = '';
+        });
+      }
+    };
+  
+    // 判断地图样式是否加载完成
+    if (map.current.isStyleLoaded()) {
+      addClusterLayers();
+    } else {
+      map.current.on('styledata', addClusterLayers);
+    }
+  
+    // 清理：在组件卸载时移除 'styledata' 监听器
+    return () => {
+      if (map.current) {
+        map.current.off('styledata', addClusterLayers);
+      }
+    };
+  }, [landmarks]);
+
+  // Listen for detailGraph events and call fetchRealtimeData
+  // useEffect(() => {
+  //   const handleDetailGraph = (e) => {
+  //     const siteName = e.detail;
+  //     // 这里可以先设置 selectedLandmark 为空或显示 loading 状态
+  //     // 然后调用实时数据获取函数
+  //     fetchRealtimeData(siteName);
+  //     setShowSidebar(true);
+  //   };
+
+  //   window.addEventListener('detailGraph', handleDetailGraph);
+  //   return () => {
+  //     window.removeEventListener('detailGraph', handleDetailGraph);
+  //   };
+  // }, []);
+
+  // Add a click event listener to the unclustered-point layer
+  useEffect(() => {
+    if (!map.current) return;
+    
+    const onUnclusteredClick = (e) => {
+      const feature = e.features[0];
+      // Note: feature.properties already contains site information
+      const popupContent = createPopupContent(feature.properties);
+      new mapboxgl.Popup({ offset: 25 })
+        .setLngLat(feature.geometry.coordinates)
+        .setDOMContent(popupContent)
+        .addTo(map.current);
+    };
+  
+    map.current.on('click', 'unclustered-point', onUnclusteredClick);
+    map.current.on('mouseenter', 'unclustered-point', () => {
+      map.current.getCanvas().style.cursor = 'pointer';
     });
-  }, [landmarks]); // Re-run when landmarks change
+    map.current.on('mouseleave', 'unclustered-point', () => {
+      map.current.getCanvas().style.cursor = '';
+    });
+  
+    return () => {
+      if (map.current) {
+        map.current.off('click', 'unclustered-point', onUnclusteredClick);
+        map.current.off('mouseenter', 'unclustered-point');
+        map.current.off('mouseleave', 'unclustered-point');
+      }
+    };
+  }, [landmarks]);
+  
+  
 
   useEffect(() => {
     const handleDetailGraph = (e) => {
@@ -218,7 +391,7 @@ const Map = ({ location }) => {
       if (selectedLocation) {
         map.current.flyTo({
           center: [selectedLocation.LONGITUDE, selectedLocation.LATITUDE],
-          zoom: 6,
+          zoom: 10,
           essential: true,
         });
       }
@@ -301,14 +474,12 @@ const Map = ({ location }) => {
     }
   }, [isFullscreen]);
 
-  // 定义一个函数，当用户点击 Apply 按钮时，更新图表 xAxis 范围
+  // Define a function that updates the chart xAxis range when the user clicks the Apply button
   const applyDateRange = () => {
     const minTimestamp = Date.parse(chartStartDate);
     const maxTimestamp = Date.parse(chartEndDate);
-    console.log('Start:', chartStartDate, minTimestamp);
-    console.log('End:', chartEndDate, maxTimestamp);
     
-    // 筛选出在选定范围内的数据
+    // Filter data within the selected range
     const filteredData = selectedLandmark.filter((landmark) => {
       const t = Date.parse(landmark.TIME);
       return t >= minTimestamp && t <= maxTimestamp;
@@ -316,7 +487,7 @@ const Map = ({ location }) => {
     
     if (filteredData.length === 0) {
       alert("No data available for the selected time range.");
-      return; // 不更新图表
+      return; // Do not update the chart
     }
     
     if (chartComponentRef.current && chartComponentRef.current.chart) {
@@ -329,7 +500,7 @@ const Map = ({ location }) => {
     }
   };
 
-  // 定义重置函数，当用户点击 Reset 按钮时清空输入，并重置图表显示全部数据
+  // Define a reset function to clear the input and reset the chart to display all data when the user clicks the Reset button
   const resetDateRange = () => {
     setChartStartDate('');
     setChartEndDate('');
@@ -350,19 +521,19 @@ const Map = ({ location }) => {
         style={{ width: showSidebar && !isFullscreen ? '75%' : '100%', height: '100%' }} 
       />
 
-      {/* 样式切换按钮 */}
-      <div style={{ position: 'absolute', bottom: 10, right: 10, zIndex: 10 }}>
+      {/* Map Layer Switch Button */}
+      <div style={{ position: 'absolute', bottom: 10, left: 10, zIndex: 10 }}>
         <button
           onClick={() => setMapStyle('mapbox://styles/mapbox/standard-satellite')}
-          className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+          className="bg-blue-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
         >
-          Satellite Layer
-        </button> <br></br>
+          <FaSatellite size={20} />
+        </button> <br></br> <br></br>
         <button
           onClick={() => setMapStyle('mapbox://styles/mapbox/navigation-day-v1')}
-          className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+          className="bg-blue-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
         >
-          Default Layer
+          <FaMap size={20} />
         </button>
       </div>
 
@@ -381,7 +552,7 @@ const Map = ({ location }) => {
             zIndex: isFullscreen ? 1000 : 'auto',
             }}
         >
-          {/* 日期选择控件 */}
+          {/* Date Range Selection Control */}
           <div style={{ marginBottom: '1rem' }}>
             <label>
               Start Date:{' '}
@@ -390,7 +561,7 @@ const Map = ({ location }) => {
                 value={chartStartDate}
                 onChange={(e) => setChartStartDate(e.target.value)}
               />
-            </label>
+            </label> 
             <label style={{ marginLeft: '1rem' }}>
               End Date:{' '}
               <input
@@ -398,7 +569,8 @@ const Map = ({ location }) => {
                 value={chartEndDate}
                 onChange={(e) => setChartEndDate(e.target.value)}
               />
-            </label>
+            </label><br></br>
+            {/* Apply Button */}
             <button
               onClick={applyDateRange}
               className="
@@ -411,7 +583,7 @@ const Map = ({ location }) => {
             >
               Apply
             </button>
-            {/* Reset 按钮 */}
+            {/* Reset Button */}
             <button
               onClick={resetDateRange}
               className="
@@ -424,10 +596,11 @@ const Map = ({ location }) => {
             >
               Reset
             </button>
-            {/* Export 按钮 */}
-            {/* 包裹 Export 按钮和下拉菜单 */}
+            {/* Export Button */}
+            {/* Wrap the Export button and drop-down menu */}
           <div style={{ position: 'relative', display: 'inline-block', marginLeft: '1rem' }}>
             <button
+              ref={exportButtonRef}
               onClick={handleExportClick}
               className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
             >
@@ -435,11 +608,12 @@ const Map = ({ location }) => {
             </button>
             {exportMenuVisible && (
               <div
+              ref={exportMenuRef}
                 style={{
                 position: 'absolute',
-                top: 'calc(100% + 0.5rem)', // 位于按钮正下方，加上一定间隔
+                top: 'calc(100% + 0.5rem)', 
                 left: 0,
-                width: '200px',
+                width: '250px',
                 backgroundColor: '#fff',
                 border: '1px solid #ccc',
                 borderRadius: '4px',
