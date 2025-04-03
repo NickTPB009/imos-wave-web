@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import logo from '../assets/logo.png';
-import uniqueSites from '../wavedata/cleaned_sites_with_coordinates.json';
+import React, { useState } from "react";
+import logo from "../assets/logo.png";
+import uniqueSites from "../wavedata/cleaned_sites_with_coordinates.json";
 
 const Header = ({ onSelectLocation }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
 
   // Get all site names from uniqueSites
   const siteNames = Object.keys(uniqueSites);
 
   // Filter site names based on search keywords (not case sensitive)
-  const filteredSiteNames = siteNames.filter(site =>
+  const filteredSiteNames = siteNames.filter((site) =>
     site.toLowerCase().startsWith(searchQuery.toLowerCase())
   );
 
@@ -18,17 +18,28 @@ const Header = ({ onSelectLocation }) => {
     <header className="bg-white text-sky-800 py-4">
       <nav className="container mx-auto flex justify-between items-center px-4">
         <div className="flex items-center">
-          <a href="https://imos.org.au" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://imos.org.au"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={logo} alt="Logo" className="h-20 w-30 mr-3" />
           </a>
-          <div className="text-2xl font-bold cursor-pointer" onClick={() => window.location.reload()}>
+          <div
+            className="text-2xl font-bold cursor-pointer"
+            onClick={() => window.location.reload()}
+          >
             IMOS - Wave Data
           </div>
         </div>
 
         <ul className="flex space-x-4 items-center">
           <li>
-            <a href="#" className="hover:text-gray-400" onClick={() => window.location.reload()}>
+            <a
+              href="/"
+              className="hover:text-gray-400"
+              onClick={() => window.location.reload()}
+            >
               Home
             </a>
           </li>
@@ -38,12 +49,18 @@ const Header = ({ onSelectLocation }) => {
             </a>
           </li>
           <li>
-            <a href="https://imos.org.au/facility" className="hover:text-gray-400">
+            <a
+              href="https://imos.org.au/facility"
+              className="hover:text-gray-400"
+            >
               Service
             </a>
           </li>
           <li>
-            <a href="https://imos.org.au/about/contact-us" className="hover:text-gray-400">
+            <a
+              href="https://imos.org.au/about/contact-us"
+              className="hover:text-gray-400"
+            >
               Contact
             </a>
           </li>
@@ -57,7 +74,7 @@ const Header = ({ onSelectLocation }) => {
             {dropdownOpen && (
               <div
                 className="absolute left-0 mt-2 w-48 bg-white text-[#075985] rounded shadow-md z-10"
-                style={{ maxHeight: '250px', overflowY: 'auto' }}
+                style={{ maxHeight: "250px", overflowY: "auto" }}
               >
                 {/* Search input box */}
                 <div className="p-2">
@@ -78,14 +95,16 @@ const Header = ({ onSelectLocation }) => {
                         onClick={() => {
                           setDropdownOpen(false);
                           onSelectLocation(site);
-                          setSearchQuery(''); // Clear search query
+                          setSearchQuery(""); // Clear search query
                         }}
                       >
                         {site}
                       </li>
                     ))
                   ) : (
-                    <li className="py-2 px-4 text-red-500">No this site, try again.</li>
+                    <li className="py-2 px-4 text-red-500">
+                      No this site, try again.
+                    </li>
                   )}
                 </ul>
               </div>
