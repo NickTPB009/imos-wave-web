@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
-import uniqueSites from "../wavedata/cleaned_sites_with_coordinates.json";
 
-const Header = ({ onSelectLocation }) => {
+const Header = ({ onSelectLocation, landmarks }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
 
   // Get all site names from uniqueSites
-  const siteNames = Object.keys(uniqueSites);
+  const siteNames = landmarks
+    .map((site) => site.site_name)
+    .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+
 
   // Filter site names based on search keywords (not case sensitive)
   const filteredSiteNames = siteNames.filter((site) =>
