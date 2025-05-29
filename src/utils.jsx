@@ -13,6 +13,7 @@ export async function fetchLatestWaveData(siteName) {
     VERSION: "1.0.0",
     PropertyName: "TIME,WHTH,WPDI,site_name,LATITUDE,LONGITUDE",
     cql_filter: `site_name='${siteName}'`,
+    // maxFeatures: 100
   });
 
   try {
@@ -42,3 +43,35 @@ export async function fetchLatestWaveData(siteName) {
     return null;
   }
 }
+
+export async function fetchAllSitesFromGeoServer() {
+  const url = "https://geoserver-123.aodn.org.au/geoserver/ows?typeName=aodn:aodn_wave_nrt_v2_timeseries_data&SERVICE=WFS&outputFormat=application/json&REQUEST=GetFeature&VERSION=1.0.0&PropertyName=site_name,LATITUDE,LONGITUDE";
+
+  try {
+    const response = await fetch(url);
+    const geojson = await response.json();
+
+    const uniqueSiteMap = new Map();
+
+    geojson.features.forEach((feature) => {
+      const props = feature.properties;
+      const lat = props.LATITUDE;
+      const lon = props.LONGITUDE;
+      const name = props.site_name;
+
+      if (name && lat && lon && !uniqueSiteMap.has(name)) {
+        uniqueSiteMap.set(name, {
+          site_name: name,
+          LATITUDE: lat,
+          LONGITUDE: lon,
+        });
+      }
+    });
+
+    return Array.from(uniqueSiteMap.values());
+  } catch (error) {
+    console.error("Failed to fetch site list:", error);
+    return [];
+  }
+}
+export const fetchSiteNamesFromGeoServer = fetchAllSitesFromGeoServer;

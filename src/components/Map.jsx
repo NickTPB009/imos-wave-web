@@ -1,15 +1,19 @@
 import React, { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
-import uniqueSites from "../wavedata/cleaned_sites_with_coordinates.json";
+// import uniqueSites from "../wavedata/cleaned_sites_with_coordinates.json";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import HighchartsWindbarb from "highcharts/modules/windbarb";
 import Exporting from "highcharts/modules/exporting";
 import ExportData from "highcharts/modules/export-data";
 import { formatDate } from "./formatDate";
-import { FaSatellite, FaMap } from "react-icons/fa";
+import { FaTimes, FaSync, FaExpand, FaCompress } from "react-icons/fa";
 import { fetchLatestWaveData } from "../utils";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { fetchAllSitesFromGeoServer } from "../utils";
 
+window.Highcharts = Highcharts;
 HighchartsWindbarb(Highcharts);
 Exporting(Highcharts);
 ExportData(Highcharts);
@@ -21,8 +25,7 @@ const createPopupContent = (landmark) => {
   const container = document.createElement("div");
 
   container.innerHTML = `
-    <h2 style="text-align: center; font-weight: bold;">${
-      landmark.site_name
+    <h2 style="text-align: center; font-weight: bold;">${landmark.site_name
     }</h2>
     <p>Latitude: ${landmark.LATITUDE}</p>
     <p>Longitude: ${landmark.LONGITUDE}</p>
@@ -50,9 +53,6 @@ const createPopupContent = (landmark) => {
 const Map = ({ location }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [mapStyle, setMapStyle] = useState(
-    "mapbox://styles/mapbox/navigation-day-v1"
-  );
   const chartComponentRef = useRef(null);
   const [landmarks, setLandmarks] = useState([]);
   const [selectedLandmark, setSelectedLandmark] = useState(null);
@@ -63,10 +63,18 @@ const Map = ({ location }) => {
   const exportMenuRef = useRef(null);
   const [chartStartDate, setChartStartDate] = useState("");
   const [chartEndDate, setChartEndDate] = useState("");
+  const [mapStyle] = useState(
+    "mapbox://styles/mapbox/navigation-day-v1"
+  );
 
   const handleExportClick = () => {
     setExportMenuVisible((prev) => !prev);
   };
+
+  // 在此添加 useEffect 来观察 selectedLandmark 用来检查记得删除
+  useEffect(() => {
+    console.log("Selected Landmark state:", selectedLandmark);
+  }, [selectedLandmark]);
 
   // Add a global click listener to close the menu when the click area is not within the export button and menu
   useEffect(() => {
@@ -128,18 +136,33 @@ const Map = ({ location }) => {
     },
   };
 
+  // uniqueSites 
+  // useEffect(() => {
+  //   const landmarksArray = Object.keys(uniqueSites).map((siteName) => ({
+  //     site_name: siteName,
+  //     LATITUDE: uniqueSites[siteName].latitude,
+  //     LONGITUDE: uniqueSites[siteName].longitude,
+  //     TIME: null,
+  //     WPDI: null,
+  //     WHTH: null,
+  //   }));
+  //   setLandmarks(landmarksArray);
+  // }, []);
   useEffect(() => {
-    // uniqueSites 的格式是 { "Port Kembla": { latitude: -34.47, longitude: 151.02 }, ... }
-    const landmarksArray = Object.keys(uniqueSites).map((siteName) => ({
-      site_name: siteName,
-      LATITUDE: uniqueSites[siteName].latitude,
-      LONGITUDE: uniqueSites[siteName].longitude,
-      // 这里暂时没有 TIME, WPDI, WHTH 数据，可以留空或设置为 null
-      TIME: null,
-      WPDI: null,
-      WHTH: null,
-    }));
-    setLandmarks(landmarksArray);
+    const loadSites = async () => {
+      const sites = await fetchAllSitesFromGeoServer();
+
+      const enrichedSites = sites.map((site) => ({
+        ...site,
+        TIME: null,
+        WPDI: null,
+        WHTH: null
+      }));
+
+      setLandmarks(enrichedSites);
+    };
+
+    loadSites();
   }, []);
 
   // Initialize the map
@@ -161,12 +184,6 @@ const Map = ({ location }) => {
       }
     };
   }, [mapStyle]); // Include mapStyle in the dependency array to avoid missing dependency warning.
-
-  useEffect(() => {
-    if (map.current) {
-      map.current.setStyle(mapStyle);
-    }
-  }, [mapStyle]);
 
   // Using GeoJSON data sources and aggregations to display landmarks
   useEffect(() => {
@@ -197,7 +214,7 @@ const Map = ({ location }) => {
         features: features,
       };
 
-      // 如果数据源已存在，则更新数据；否则添加新数据源及图层
+      // If the data source already exists, update the data; otherwise, add a new data source and layer
       if (map.current.getSource("landmarks")) {
         map.current.getSource("landmarks").setData(geojsonData);
       } else {
@@ -208,7 +225,7 @@ const Map = ({ location }) => {
           clusterMaxZoom: 14,
           clusterRadius: 50,
         });
-        // 添加聚合圆圈图层
+        // Add the Converged Circles layer
         map.current.addLayer({
           id: "clusters",
           type: "circle",
@@ -229,7 +246,7 @@ const Map = ({ location }) => {
             "circle-stroke-color": "#fff",
           },
         });
-        // 添加聚合计数图层
+        // Adding an aggregate count layer
         map.current.addLayer({
           id: "cluster-count",
           type: "symbol",
@@ -244,7 +261,7 @@ const Map = ({ location }) => {
             "text-color": "#fff",
           },
         });
-        // 添加未聚合点图层
+        // Add an unaggregated points layer
         map.current.addLayer({
           id: "unclustered-point",
           type: "circle",
@@ -257,7 +274,7 @@ const Map = ({ location }) => {
             "circle-stroke-color": "#fff",
           },
         });
-        // 点击聚合点时放大显示聚合内的点
+        // Click on the aggregation point to zoom in on the points within the aggregation
         map.current.on("click", "clusters", (e) => {
           const features = map.current.queryRenderedFeatures(e.point, {
             layers: ["clusters"],
@@ -273,7 +290,7 @@ const Map = ({ location }) => {
               });
             });
         });
-        // 改变鼠标指针提示聚合点可点击
+        // Change the mouse pointer to indicate that the aggregation point is clickable
         map.current.on("mouseenter", "clusters", () => {
           map.current.getCanvas().style.cursor = "pointer";
         });
@@ -283,14 +300,14 @@ const Map = ({ location }) => {
       }
     };
 
-    // 判断地图样式是否加载完成
+    // Determine whether the map style is loaded
     if (map.current.isStyleLoaded()) {
       addClusterLayers();
     } else {
       map.current.on("styledata", addClusterLayers);
     }
 
-    // 清理：在组件卸载时移除 'styledata' 监听器
+    // Cleanup: Remove 'styledata' listener on component unmount
     return () => {
       if (map.current) {
         map.current.off("styledata", addClusterLayers);
@@ -329,6 +346,7 @@ const Map = ({ location }) => {
     };
   }, [landmarks]);
 
+  // Add a click event listener to the map to close the sidebar when clicking outside of it
   useEffect(() => {
     const handleDetailGraph = (e) => {
       const site_name = e.detail;
@@ -337,6 +355,38 @@ const Map = ({ location }) => {
       );
       setSelectedLandmark(selected);
       setShowSidebar(true);
+      toast.info(
+        <span
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "0.5rem",
+            whiteSpace: "nowrap"
+          }}
+        >
+          Please click {" "}
+          <span
+            className="bg-green-700 hover:bg-green-600 text-white font-bold py-1 px-2 rounded inline-flex items-center"
+            title="Refresh"
+          >
+            <FaSync size={16} />
+          </span>{" "}
+          to get latest data.
+        </span>,
+        {
+          position: "top-center",
+          autoClose: 5000,
+          closeOnClick: true,
+          style: {
+            maxWidth: "900px",
+            minHeight: "48px",
+            fontSize: "16px",
+            display: "flex",
+            alignItems: "center",
+            padding: "10px 16px"
+          }
+        }
+      );
     };
 
     window.addEventListener("detailGraph", handleDetailGraph);
@@ -345,6 +395,7 @@ const Map = ({ location }) => {
     };
   }, [landmarks]);
 
+  // Update the map view when the location prop changes
   useEffect(() => {
     if (location && map.current) {
       const selectedLocation = landmarks.find(
@@ -363,11 +414,6 @@ const Map = ({ location }) => {
   // Filter data to get only the last 24 hours (48 records assuming every half hour)
   const chartOptions = React.useMemo(() => {
     if (!selectedLandmark || selectedLandmark.length === 0) return null;
-
-    console.log(
-      "Selected Landmark times:",
-      selectedLandmark.map((l) => Date.parse(l.TIME))
-    );
 
     return {
       chart: {
@@ -388,7 +434,7 @@ const Map = ({ location }) => {
           text: "Time (UTC)",
         },
         labels: {
-          format: "{value:%e %b %Y %H:%M}", // customize time format
+          format: "{value:%e %b %Y %H:%M}", // customize time format - see file utils.jsx
         },
       },
       yAxis: [
@@ -396,12 +442,26 @@ const Map = ({ location }) => {
           title: {
             text: "Wave Height (m)",
           },
+          opposite: false,
         },
+        {
+          title: {
+            text: "Wave Direction (°)"
+          },
+          opposite: true,
+          max: 360,
+          min: 0,
+          labels: {
+            enabled: false
+          },
+          gridLineWidth: 0,
+        }
       ],
       series: [
         {
           type: "line",
           name: "Wave Height",
+          turboThreshold: 90000,
           data: selectedLandmark.map((landmark) => ({
             x: Date.parse(landmark.TIME),
             y: landmark.WHTH,
@@ -412,19 +472,32 @@ const Map = ({ location }) => {
         },
         {
           type: "windbarb",
+          yAxis: 1,
           name: "Wave Direction",
-          data: selectedLandmark.map((landmark) => ({
-            x: Date.parse(landmark.TIME),
-            value: 10,
-            direction: parseFloat(landmark.WPDI),
-          })),
-          // marker: {
-          //   symbol: "arrow",
-          //   rotation: 0,
-          // },
+          vectorLength: 50,
+          color: "#000000",
+          turboThreshold: 90000,
+          data: selectedLandmark
+            .filter(
+              (landmark) =>
+                landmark.TIME !== null &&
+                landmark.WPDI !== null &&
+                !isNaN(Date.parse(landmark.TIME)) &&
+                !isNaN(parseFloat(landmark.WPDI))
+            )
+            .map((landmark) => ({
+              x: Date.parse(landmark.TIME),
+              value: 10,
+              direction: parseFloat(landmark.WPDI),
+            })),
+          marker: {
+            symbol: "arrow",
+            rotation: 0,
+          },
           tooltip: {
             valueSuffix: " °",
           },
+          zIndex: 5,
         },
       ],
     };
@@ -478,43 +551,35 @@ const Map = ({ location }) => {
     }
   };
 
+  useEffect(() => {
+    if (map.current) {
+      map.current.resize();
+    }
+  }, [showSidebar, isFullscreen]);
+
+
   return (
     <div style={{ position: "relative", display: "flex", height: "100vh" }}>
+      <ToastContainer
+        toastStyle={{
+          fontFamily: "inherit",
+          fontSize: "16px"
+        }}
+      />
       <div
         ref={mapContainer}
         className="map-container"
         style={{
-          width: showSidebar && !isFullscreen ? "75%" : "100%",
+          width: (showSidebar && !isFullscreen) ? "50%" : "100%",
           height: "100%",
         }}
       />
 
-      {/* Map Layer Switch Button */}
-      <div style={{ position: "absolute", bottom: 10, left: 10, zIndex: 10 }}>
-        <button
-          onClick={() =>
-            setMapStyle("mapbox://styles/mapbox/standard-satellite")
-          }
-          className="bg-blue-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
-        >
-          <FaSatellite size={20} />
-        </button>{" "}
-        <br></br> <br></br>
-        <button
-          onClick={() =>
-            setMapStyle("mapbox://styles/mapbox/navigation-day-v1")
-          }
-          className="bg-blue-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
-        >
-          <FaMap size={20} />
-        </button>
-      </div>
-
-      {showSidebar && selectedLandmark && selectedLandmark.length > 0 && (
+      {showSidebar && chartOptions && (
         <div
           className="sidebar"
           style={{
-            width: isFullscreen ? "100%" : "25%",
+            width: isFullscreen ? "100%" : "50%",
             padding: "20px",
             backgroundColor: "#f8f9fa",
             boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
@@ -522,7 +587,8 @@ const Map = ({ location }) => {
             position: isFullscreen ? "absolute" : "relative",
             top: 0,
             right: 0,
-            zIndex: isFullscreen ? 1000 : "auto",
+            zIndex: isFullscreen ? 1000 : "auto"
+            ,
           }}
         >
           {/* Date Range Selection Control */}
@@ -543,30 +609,28 @@ const Map = ({ location }) => {
                 onChange={(e) => setChartEndDate(e.target.value)}
               />
             </label>
-            <br></br>
             {/* Apply Button */}
             <button
               onClick={applyDateRange}
+              title="Please select date range before click apply."
               className="
-              ml-4 bg-transparent 
-            hover:bg-blue-500 
-            text-blue-700 font-semibold 
-            hover:text-white py-2 px-4 border 
-            border-blue-500 
-              hover:border-transparent rounded"
+              ml-4 mt-2
+              bg-white 
+              hover:bg-gray-100 
+              text-gray-800 font-semibold py-1 px-2 border 
+              border-gray-400 rounded shadow mr-2"
             >
               Apply
             </button>
             {/* Reset Button */}
             <button
               onClick={resetDateRange}
+              title="Click this to rest date range."
               className="
-              ml-4 bg-transparent 
-            hover:bg-blue-500 
-            text-blue-700 font-semibold 
-            hover:text-white py-2 px-4 border 
-            border-blue-500 
-              hover:border-transparent rounded"
+              bg-white 
+              hover:bg-gray-100 
+              text-gray-800 font-semibold py-1 px-2 border 
+              border-gray-400 rounded shadow"
             >
               Reset
             </button>
@@ -576,13 +640,18 @@ const Map = ({ location }) => {
               style={{
                 position: "relative",
                 display: "inline-block",
-                marginLeft: "1rem",
+                marginLeft: "0.5rem",
+                marginRight: "0.5rem",
               }}
             >
               <button
                 ref={exportButtonRef}
+                title="Click this to export wave chart."
                 onClick={handleExportClick}
-                className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+                className="
+                bg-gray-300 
+                hover:bg-gray-400 
+                text-gray-800 font-bold py-1 px-2 rounded inline-flex items-center"
               >
                 Export
               </button>
@@ -688,56 +757,67 @@ const Map = ({ location }) => {
                 </div>
               )}
             </div>
+
+            {/* Refresh Icon 按钮 */}
+            <button
+              className="bg-green-700 hover:bg-green-600 text-white font-bold py-1 px-2 rounded inline-flex items-center"
+              title="Click this to get the latest wave data."
+              onClick={async () => {
+                const updatedData = await fetchLatestWaveData(
+                  selectedLandmark[0].site_name
+                );
+
+                //用来检查数据是否更新
+                console.log("Updated API data:", updatedData);
+                // Check if WHTH of all data points is null
+                const allWaveHeightsNull = updatedData.every(
+                  (item) => item.WHTH === null
+                );
+                // Checks if WPDI is null for all data points
+                const allWaveDirectionsNull = updatedData.every(
+                  (item) => item.WPDI === null
+                );
+
+                if (allWaveHeightsNull) {
+                  alert("No wave height data record available.");
+                }
+                if (allWaveDirectionsNull) {
+                  alert("No wave direction data record available.");
+                }
+
+                if (updatedData) {
+                  setSelectedLandmark(updatedData);
+                } else {
+                  alert("Failed to load the latest data from GeoServer.");
+                }
+              }}
+            >
+              <FaSync size={20} />
+            </button>
+
+            {/* Fullscreen switch buttom */}
+            <button
+              className="bg-blue-700 text-white font-bold py-2 px-3 rounded mt-4 ml-2"
+              title="Click this to view full screen wave chart."
+              onClick={() => setIsFullscreen(!isFullscreen)}
+            >
+              {isFullscreen ? <FaCompress size={18} /> : <FaExpand size={18} />}
+            </button>
           </div>
+
+          <button
+            onClick={() => setShowSidebar(false)}
+            className="absolute top-2 right-2 text-gray-700 hover:text-gray-900">
+            <FaTimes size={24} />
+          </button>
+
           <HighchartsReact
             highcharts={Highcharts}
             options={chartOptions}
+            // options={testOptions}
             ref={chartComponentRef} // Reference for resizing
             containerProps={{ style: { height: "100%", width: "100%" } }} // Ensure chart takes full container
           />
-          <button
-            className="bg-cyan-950 text-white font-bold py-2 px-4 rounded mt-4"
-            onClick={() => setShowSidebar(false)}
-          >
-            Close
-          </button>
-          <button
-            className="bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 ml-2"
-            onClick={() => setIsFullscreen(!isFullscreen)}
-          >
-            {isFullscreen ? "Exit Fullscreen" : "View Full Chart"}
-          </button>
-          <button
-            className="bg-green-700 text-white font-bold py-2 px-4 rounded mt-4 ml-2"
-            onClick={async () => {
-              const updatedData = await fetchLatestWaveData(
-                selectedLandmark[0].site_name
-              );
-              // Check if WHTH of all data points is null
-              const allWaveHeightsNull = updatedData.every(
-                (item) => item.WHTH === null
-              );
-              // Checks if WPDI is null for all data points
-              const allWaveDirectionsNull = updatedData.every(
-                (item) => item.WPDI === null
-              );
-
-              if (allWaveHeightsNull) {
-                alert("No Wave Height data available.");
-              }
-              if (allWaveDirectionsNull) {
-                alert("No Wave Direction data available.");
-              }
-
-              if (updatedData) {
-                setSelectedLandmark(updatedData);
-              } else {
-                alert("Failed to load new data from GeoServer.");
-              }
-            }}
-          >
-            Refresh Latest Data
-          </button>
         </div>
       )}
     </div>
