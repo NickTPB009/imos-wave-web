@@ -487,7 +487,7 @@ const Map = ({ location }) => {
             )
             .map((landmark) => ({
               x: Date.parse(landmark.TIME),
-              value: 10,
+              value: 5,
               direction: parseFloat(landmark.WPDI),
             })),
           marker: {
