@@ -75,3 +75,15 @@ export async function fetchAllSitesFromGeoServer() {
   }
 }
 export const fetchSiteNamesFromGeoServer = fetchAllSitesFromGeoServer;
+
+// 获取后端 API 中缓存的站点列表（推荐替代 GeoServer 实时请求）
+export async function fetchCachedSitesFromBackend() {
+  try {
+    const response = await fetch("http://localhost:5000/api/sites");
+    const data = await response.json();
+    return data; // 应该是数组，每个对象包含 site_name, LATITUDE, LONGITUDE
+  } catch (error) {
+    console.error("Failed to fetch sites from backend:", error);
+    return [];
+  }
+}

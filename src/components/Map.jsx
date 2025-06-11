@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
-// import uniqueSites from "../wavedata/cleaned_sites_with_coordinates.json";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import HighchartsWindbarb from "highcharts/modules/windbarb";
@@ -11,7 +10,7 @@ import { FaTimes, FaSync, FaExpand, FaCompress } from "react-icons/fa";
 import { fetchLatestWaveData } from "../utils";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { fetchAllSitesFromGeoServer } from "../utils";
+import { fetchCachedSitesFromBackend } from "../utils";
 
 window.Highcharts = Highcharts;
 HighchartsWindbarb(Highcharts);
@@ -136,21 +135,10 @@ const Map = ({ location }) => {
     },
   };
 
-  // uniqueSites 
-  // useEffect(() => {
-  //   const landmarksArray = Object.keys(uniqueSites).map((siteName) => ({
-  //     site_name: siteName,
-  //     LATITUDE: uniqueSites[siteName].latitude,
-  //     LONGITUDE: uniqueSites[siteName].longitude,
-  //     TIME: null,
-  //     WPDI: null,
-  //     WHTH: null,
-  //   }));
-  //   setLandmarks(landmarksArray);
-  // }, []);
   useEffect(() => {
     const loadSites = async () => {
-      const sites = await fetchAllSitesFromGeoServer();
+      // const sites = await fetchAllSitesFromGeoServer();
+      const sites = await fetchCachedSitesFromBackend();
 
       const enrichedSites = sites.map((site) => ({
         ...site,
@@ -425,7 +413,7 @@ const Map = ({ location }) => {
         align: "left",
       },
       subtitle: {
-        text: 'Source: <a href="https://oceancurrent.aodn.org.au/index.php" target="_blank">IMOS OceanCurrent</a>',
+        text: 'Source: <a href="https://geoserver-portal.aodn.org.au/geoserver/web/?0&workspace=aodn" target="_blank">GeoServer</a>',
         align: "left",
       },
       xAxis: {
@@ -538,6 +526,32 @@ const Map = ({ location }) => {
       console.log("Chart ref is not ready!!");
     }
   };
+
+  // Define a function to apply quick date ranges when the user clicks the quick range buttons
+  const applyQuickRange = (days) => {
+    if (!selectedLandmark || selectedLandmark.length === 0) return;
+
+    const now = new Date();
+    const past = new Date(now.getTime() - days * 24 * 60 * 60 * 1000);
+
+    const filteredData = selectedLandmark.filter((landmark) => {
+      const t = Date.parse(landmark.TIME);
+      return t >= past.getTime();
+    });
+
+    if (filteredData.length === 0) {
+      alert(`No data available for the past ${days} day(s).`);
+      return;
+    }
+
+    if (chartComponentRef.current && chartComponentRef.current.chart) {
+      chartComponentRef.current.chart.xAxis[0].update({
+        min: past.getTime(),
+        max: now.getTime(),
+      });
+    }
+  };
+
 
   // Define a reset function to clear the input and reset the chart to display all data when the user clicks the Reset button
   const resetDateRange = () => {
@@ -758,51 +772,77 @@ const Map = ({ location }) => {
               )}
             </div>
 
-            {/* Refresh Icon 按钮 */}
-            <button
-              className="bg-green-700 hover:bg-green-600 text-white font-bold py-1 px-2 rounded inline-flex items-center"
-              title="Click this to get the latest wave data."
-              onClick={async () => {
-                const updatedData = await fetchLatestWaveData(
-                  selectedLandmark[0].site_name
-                );
+            {/* Quick range buttons */}
+            <div style={{ marginTop: "0.5rem" }}>
+              <button
+                className="bg-gray-200 hover:bg-gray-300 text-sm text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded mr-2"
+                onClick={() => applyQuickRange(1)}
+              >
+                Last 1 Day
+              </button>
+              <button
+                className="bg-gray-200 hover:bg-gray-300 text-sm text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded mr-2"
+                onClick={() => applyQuickRange(3)}
+              >
+                Last 3 Days
+              </button>
+              <button
+                className="bg-gray-200 hover:bg-gray-300 text-sm text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded mr-2"
+                onClick={() => applyQuickRange(7)}
+              >
+                Last 1 Week
+              </button>
+              <button
+                className="bg-gray-200 hover:bg-gray-300 text-sm text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded mr-2"
+                onClick={resetDateRange}
+              >
+                View All Wave Data
+              </button>
+              {/* Refresh Icon 按钮 */}
+              <button
+                className="bg-green-700 text-white font-bold py-2 px-3 rounded mt-4 ml-2"
+                title="Click this to get the latest wave data."
+                onClick={async () => {
+                  const updatedData = await fetchLatestWaveData(
+                    selectedLandmark[0].site_name
+                  );
 
-                //用来检查数据是否更新
-                console.log("Updated API data:", updatedData);
-                // Check if WHTH of all data points is null
-                const allWaveHeightsNull = updatedData.every(
-                  (item) => item.WHTH === null
-                );
-                // Checks if WPDI is null for all data points
-                const allWaveDirectionsNull = updatedData.every(
-                  (item) => item.WPDI === null
-                );
+                  //用来检查数据是否更新
+                  console.log("Updated API data:", updatedData);
+                  // Check if WHTH of all data points is null
+                  const allWaveHeightsNull = updatedData.every(
+                    (item) => item.WHTH === null
+                  );
+                  // Checks if WPDI is null for all data points
+                  const allWaveDirectionsNull = updatedData.every(
+                    (item) => item.WPDI === null
+                  );
 
-                if (allWaveHeightsNull) {
-                  alert("No wave height data record available.");
-                }
-                if (allWaveDirectionsNull) {
-                  alert("No wave direction data record available.");
-                }
+                  if (allWaveHeightsNull) {
+                    alert("No wave height data record available.");
+                  }
+                  if (allWaveDirectionsNull) {
+                    alert("No wave direction data record available.");
+                  }
 
-                if (updatedData) {
-                  setSelectedLandmark(updatedData);
-                } else {
-                  alert("Failed to load the latest data from GeoServer.");
-                }
-              }}
-            >
-              <FaSync size={20} />
-            </button>
-
-            {/* Fullscreen switch buttom */}
-            <button
-              className="bg-blue-700 text-white font-bold py-2 px-3 rounded mt-4 ml-2"
-              title="Click this to view full screen wave chart."
-              onClick={() => setIsFullscreen(!isFullscreen)}
-            >
-              {isFullscreen ? <FaCompress size={18} /> : <FaExpand size={18} />}
-            </button>
+                  if (updatedData) {
+                    setSelectedLandmark(updatedData);
+                  } else {
+                    alert("Failed to load the latest data from GeoServer.");
+                  }
+                }}
+              >
+                <FaSync size={18} />
+              </button>
+              {/* Fullscreen switch buttom */}
+              <button
+                className="bg-blue-700 text-white font-bold py-2 px-3 rounded mt-4 ml-2"
+                title="Click this to view full screen wave chart."
+                onClick={() => setIsFullscreen(!isFullscreen)}
+              >
+                {isFullscreen ? <FaCompress size={18} /> : <FaExpand size={18} />}
+              </button>
+            </div>
           </div>
 
           <button
