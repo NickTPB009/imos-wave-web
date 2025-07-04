@@ -23,22 +23,31 @@ h1 {
 /* Ensure the container is a flexbox */
 .page-container {
   display: flex;
-  flex-direction: column; 
-  height: 100vh;          
+  flex-direction: column;
+  height: 100vh;
   position: relative;
 }
 
 /* Styling for the map container */
 .map-container {
   flex-grow: 1;
-  border-right: 1px solid #ddd; /* Optional separator between map and chart */
-  z-index: 0;                    /* Make sure map doesn't overlay the header */
+  border-right: 1px solid #ddd;
+  /* Optional separator between map and chart */
+  z-index: 0;
+  /* Make sure map doesn't overlay the header */
 }
 
 /* Ensure header stays on top */
 header {
-  z-index: 10;            /* Keeps the header on top of other elements */
-  position: relative;     /* Ensures header stays in place */
+  z-index: 10;
+  /* Keeps the header on top of other elements */
+  position: relative;
+  /* Ensures header stays in place */
 }
 
-
+/* Styling for the chart container */
+.mapboxgl-popup-close-button {
+  font-size: 24px !important;
+  top: 5px !important;
+  right: 8px !important;
+}

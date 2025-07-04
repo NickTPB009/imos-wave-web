@@ -5,12 +5,17 @@ import HighchartsReact from "highcharts-react-official";
 import HighchartsWindbarb from "highcharts/modules/windbarb";
 import Exporting from "highcharts/modules/exporting";
 import ExportData from "highcharts/modules/export-data";
-import { formatDate } from "./formatDate";
 import { FaTimes, FaSync, FaExpand, FaCompress } from "react-icons/fa";
 import { fetchLatestWaveData } from "../utils";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { fetchCachedSitesFromBackend } from "../utils";
+import PopupContent from "./PopupContent";
+import Draggable from 'react-draggable';
+import { createRoot } from "react-dom/client";
+import CompareChart from "./CompareChart";
+import CompareSelector from "./CompareSelector";
+
 
 window.Highcharts = Highcharts;
 HighchartsWindbarb(Highcharts);
@@ -20,36 +25,9 @@ ExportData(Highcharts);
 // Mapbox access token
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
-const createPopupContent = (landmark) => {
-  const container = document.createElement("div");
-
-  container.innerHTML = `
-    <h2 style="text-align: center; font-weight: bold;">${landmark.site_name
-    }</h2>
-    <p>Latitude: ${landmark.LATITUDE}</p>
-    <p>Longitude: ${landmark.LONGITUDE}</p>
-    ${landmark.TIME ? `<p>Time: ${formatDate(landmark.TIME)}</p>` : ""}
-    ${landmark.WPDI ? `<p>Wave Direction (WPDI): ${landmark.WPDI}°</p>` : ""}
-    ${landmark.WHTH ? `<p>Wave Height (WHTH): ${landmark.WHTH} meters</p>` : ""}
-    <div style="text-align: center;">
-      <button class="detail-graph-btn bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2">Detail Graph</button>
-    </div>
-  `;
-  // TODO: useref - hook (update later)
-  const button = container.querySelector(".detail-graph-btn");
-  if (button) {
-    button.addEventListener("click", () => {
-      window.dispatchEvent(
-        new CustomEvent("detailGraph", { detail: landmark.site_name })
-      );
-    });
-  }
-
-  return container;
-};
 
 // Map Component
-const Map = ({ location }) => {
+const Map = ({ location, savedSites, setSavedSites, setHasNewSavedSite, }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
   const chartComponentRef = useRef(null);
@@ -60,15 +38,77 @@ const Map = ({ location }) => {
   const [exportMenuVisible, setExportMenuVisible] = useState(false);
   const exportButtonRef = useRef(null);
   const exportMenuRef = useRef(null);
+  const [compareFullScreen, setCompareFullScreen] = useState(false);
   const [chartStartDate, setChartStartDate] = useState("");
   const [chartEndDate, setChartEndDate] = useState("");
+  const [showCompareChart, setShowCompareChart] = useState(false);
+  const [quickRange, setQuickRange] = useState(null);
+  const [compareWaveData, setCompareWaveData] = useState({});
+  const [selectedCompareSites, setSelectedCompareSites] = useState([]);
   const [mapStyle] = useState(
     "mapbox://styles/mapbox/navigation-day-v1"
   );
-
   const handleExportClick = () => {
     setExportMenuVisible((prev) => !prev);
   };
+
+  const createPopupContent = (landmark) => {
+    const container = document.createElement("div");
+
+    const toggleCompareSite = (siteName) => {
+      setSelectedCompareSites((prev) =>
+        prev.includes(siteName)
+          ? prev.filter((s) => s !== siteName)
+          : [...prev, siteName].slice(-3) // Limit to last 3 selected sites
+      );
+    };
+
+    const root = createRoot(container);
+    root.render(
+      <PopupContent
+        site={landmark}
+        selectedCompareSites={selectedCompareSites}
+        toggleCompareSite={toggleCompareSite}
+        onDetailClick={(siteName) => {
+          window.dispatchEvent(
+            new CustomEvent("detailGraph", { detail: siteName })
+          );
+        }}
+        onSaveSite={(siteName) => {
+          setSavedSites((prev) =>
+            prev.includes(siteName) ? prev : [...prev, siteName]
+          );
+          setHasNewSavedSite(true); // ✅ 红点提醒
+        }}
+      />
+    );
+
+    return container;
+  };
+
+
+  const handleCloseCompareChart = () => {
+    setShowCompareChart(false);
+    setCompareWaveData({});
+    setSelectedCompareSites([]); // 可选：也重置选择的站点
+  };
+
+  // 过滤出当前要给图表渲染的数据
+  const dataForChart = React.useMemo(() => {
+    if (!selectedLandmark) return [];
+
+    // 如果 quickRange 为 null，就返回所有数据
+    if (quickRange == null) {
+      return selectedLandmark;
+    }
+
+    const now = Date.now();
+    const cutoff = now - quickRange * 24 * 60 * 60 * 1000;
+    // 只保留最近 quickRange 天的数据
+    return selectedLandmark.filter(item =>
+      Date.parse(item.TIME) >= cutoff
+    );
+  }, [selectedLandmark, quickRange]);
 
   // 在此添加 useEffect 来观察 selectedLandmark 用来检查记得删除
   useEffect(() => {
@@ -313,7 +353,7 @@ const Map = ({ location }) => {
       const popupContent = createPopupContent(feature.properties);
       new mapboxgl.Popup({ offset: 25 })
         .setLngLat(feature.geometry.coordinates)
-        .setDOMContent(popupContent)
+        .setDOMContent(createPopupContent(feature.properties))
         .addTo(map.current);
     };
 
@@ -336,13 +376,48 @@ const Map = ({ location }) => {
 
   // Add a click event listener to the map to close the sidebar when clicking outside of it
   useEffect(() => {
-    const handleDetailGraph = (e) => {
+    const handleDetailGraph = async (e) => {
       const site_name = e.detail;
-      const selected = landmarks.filter(
-        (landmark) => landmark.site_name === site_name
-      );
-      setSelectedLandmark(selected);
-      setShowSidebar(true);
+      setShowSidebar(true); // 优先显示图表区域
+
+      try {
+        const latestData = await fetchLatestWaveData(site_name);
+        if (!latestData || latestData.length === 0) {
+          alert("No latest wave data available.");
+          return;
+        }
+
+        const allWaveHeightsNull = latestData.every(item => item.WHTH === null);
+        const allWaveDirectionsNull = latestData.every(item => item.WPDI === null);
+
+        if (allWaveHeightsNull) {
+          alert("No wave height data record available.");
+        }
+        if (allWaveDirectionsNull) {
+          alert("No wave direction data record available.");
+        }
+
+        // 判断是否有最近7天的数据
+        const now = new Date();
+        const sevenDaysAgo = new Date(now);
+        sevenDaysAgo.setDate(now.getDate() - 7);
+
+        const hasRecent7DaysData = latestData.some(item => {
+          const itemTime = new Date(item.TIME);
+          return itemTime >= sevenDaysAgo && itemTime <= now;
+        });
+
+        if (!hasRecent7DaysData) {
+          alert(`No last 7 days data available, please click "View All Wave Data".`);
+        }
+
+        setSelectedLandmark(latestData);
+        setQuickRange(7); // Set a default quick range of 7 days
+      } catch (error) {
+        console.error("Error fetching latest data:", error);
+        alert("Failed to fetch the latest wave data.");
+      }
+
       toast.info(
         <span
           style={{
@@ -352,14 +427,7 @@ const Map = ({ location }) => {
             whiteSpace: "nowrap"
           }}
         >
-          Please click {" "}
-          <span
-            className="bg-green-700 hover:bg-green-600 text-white font-bold py-1 px-2 rounded inline-flex items-center"
-            title="Refresh"
-          >
-            <FaSync size={16} />
-          </span>{" "}
-          to get latest data.
+          Showing latest data of <strong>{site_name}</strong>.
         </span>,
         {
           position: "top-center",
@@ -419,11 +487,12 @@ const Map = ({ location }) => {
       xAxis: {
         type: "datetime",
         title: {
-          text: "Time (UTC)",
+          text: "Time",
         },
-        labels: {
-          format: "{value:%e %b %Y %H:%M}", // customize time format - see file utils.jsx
-        },
+
+        // 根据 quickRange 动态设置
+        min: quickRange != null ? Date.now() - quickRange * 24 * 60 * 60 * 1000 : null,
+        max: quickRange != null ? Date.now() : null
       },
       yAxis: [
         {
@@ -442,7 +511,7 @@ const Map = ({ location }) => {
           labels: {
             enabled: false
           },
-          gridLineWidth: 0,
+          gridLineWidth: 1,
         }
       ],
       series: [
@@ -450,22 +519,23 @@ const Map = ({ location }) => {
           type: "line",
           name: "Wave Height",
           turboThreshold: 90000,
-          data: selectedLandmark.map((landmark) => ({
+          data: dataForChart.map((landmark) => ({
             x: Date.parse(landmark.TIME),
             y: landmark.WHTH,
           })),
           tooltip: {
-            valueSuffix: " m",
+            xDateFormat: "%A, %b %e, %Y, %H:%M",
+            shared: true
           },
         },
         {
           type: "windbarb",
           yAxis: 1,
           name: "Wave Direction",
-          vectorLength: 50,
-          color: "#000000",
+          vectorLength: 30,
+          color: "#ff8c00",
           turboThreshold: 90000,
-          data: selectedLandmark
+          data: dataForChart
             .filter(
               (landmark) =>
                 landmark.TIME !== null &&
@@ -483,13 +553,14 @@ const Map = ({ location }) => {
             rotation: 0,
           },
           tooltip: {
-            valueSuffix: " °",
+            xDateFormat: "%A, %b %e, %Y, %H:%M",
+            shared: true
           },
           zIndex: 5,
         },
       ],
     };
-  }, [selectedLandmark]);
+  }, [selectedLandmark, quickRange, dataForChart]);
 
   // Resize chart when switching fullscreen mode
   useEffect(() => {
@@ -531,25 +602,34 @@ const Map = ({ location }) => {
   const applyQuickRange = (days) => {
     if (!selectedLandmark || selectedLandmark.length === 0) return;
 
-    const now = new Date();
-    const past = new Date(now.getTime() - days * 24 * 60 * 60 * 1000);
-
-    const filteredData = selectedLandmark.filter((landmark) => {
-      const t = Date.parse(landmark.TIME);
-      return t >= past.getTime();
-    });
-
-    if (filteredData.length === 0) {
-      alert(`No data available for the past ${days} day(s).`);
+    // 特殊处理“View All Wave Data”按钮（days = null）
+    if (days === null) {
+      setQuickRange(null);
+      setChartStartDate(null);
+      setChartEndDate(null);
       return;
     }
 
-    if (chartComponentRef.current && chartComponentRef.current.chart) {
-      chartComponentRef.current.chart.xAxis[0].update({
-        min: past.getTime(),
-        max: now.getTime(),
+    const end = new Date();
+    const start = new Date();
+    start.setDate(end.getDate() - days);
+
+    const filteredData = selectedLandmark.filter((item) => {
+      const itemDate = new Date(item.TIME);
+      return itemDate >= start && itemDate <= end;
+    });
+
+    if (filteredData.length === 0) {
+      toast.warning(`No last ${days} day(s) data available, please click "View All Wave Data".`, {
+        position: "top-center",
+        autoClose: 5000,
       });
+      return;
     }
+
+    setChartStartDate(start.toISOString().split("T")[0]);
+    setChartEndDate(end.toISOString().split("T")[0]);
+    setQuickRange(days);
   };
 
 
@@ -557,6 +637,7 @@ const Map = ({ location }) => {
   const resetDateRange = () => {
     setChartStartDate("");
     setChartEndDate("");
+    setQuickRange(null);
     if (chartComponentRef.current && chartComponentRef.current.chart) {
       chartComponentRef.current.chart.xAxis[0].update({
         min: null,
@@ -571,9 +652,53 @@ const Map = ({ location }) => {
     }
   }, [showSidebar, isFullscreen]);
 
+  useEffect(() => {
+    const fetchCompareData = async () => {
+      const newData = {};
+
+      for (const siteName of selectedCompareSites) {
+        try {
+          const data = await fetchLatestWaveData(siteName);
+          if (data && data.length > 0) {
+            newData[siteName] = data;
+          }
+        } catch (error) {
+          console.error(`Error fetching data for ${siteName}:`, error);
+        }
+      }
+
+      setCompareWaveData(newData);
+    };
+
+    if (selectedCompareSites.length > 0) {
+      fetchCompareData();
+    } else {
+      setCompareWaveData({});
+    }
+  }, [selectedCompareSites]);
+
+  useEffect(() => {
+    if (quickRange != null && chartComponentRef.current && selectedLandmark.length) {
+      const now = Date.now();
+      const past = now - quickRange * 24 * 60 * 60 * 1000;
+      chartComponentRef.current.chart.xAxis[0].update({
+        min: past,
+        max: now
+      });
+    }
+  }, [quickRange, selectedLandmark]);
+
 
   return (
     <div style={{ position: "relative", display: "flex", height: "100vh" }}>
+      <CompareSelector
+        landmarks={landmarks}
+        selectedCompareSites={selectedCompareSites}
+        setSelectedCompareSites={setSelectedCompareSites}
+        setShowCompareChart={setShowCompareChart}
+      />
+
+
       <ToastContainer
         toastStyle={{
           fontFamily: "inherit",
@@ -775,29 +900,65 @@ const Map = ({ location }) => {
             {/* Quick range buttons */}
             <div style={{ marginTop: "0.5rem" }}>
               <button
-                className="bg-gray-200 hover:bg-gray-300 text-sm text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded mr-2"
-                onClick={() => applyQuickRange(1)}
+                onClick={() => { applyQuickRange(1) }}
+                className={`
+    text-sm font-semibold py-1 px-2 border rounded mr-2
+    ${quickRange === 1
+                    ? 'bg-blue-700 text-white border-blue-700'
+                    : 'bg-gray-200 hover:bg-gray-300 text-gray-800 border-gray-400'}
+  `}
               >
                 Last 1 Day
               </button>
+
               <button
-                className="bg-gray-200 hover:bg-gray-300 text-sm text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded mr-2"
-                onClick={() => applyQuickRange(3)}
+                onClick={() => { applyQuickRange(3) }}
+                className={`
+    text-sm font-semibold py-1 px-2 border rounded mr-2
+    ${quickRange === 3
+                    ? 'bg-blue-700 text-white border-blue-700'
+                    : 'bg-gray-200 hover:bg-gray-300 text-gray-800 border-gray-400'}
+  `}
               >
                 Last 3 Days
               </button>
+
               <button
-                className="bg-gray-200 hover:bg-gray-300 text-sm text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded mr-2"
-                onClick={() => applyQuickRange(7)}
+                onClick={() => { applyQuickRange(7) }}
+                className={`
+    text-sm font-semibold py-1 px-2 border rounded mr-2
+    ${quickRange === 7
+                    ? 'bg-blue-700 text-white border-blue-700'
+                    : 'bg-gray-200 hover:bg-gray-300 text-gray-800 border-gray-400'}
+  `}
               >
                 Last 1 Week
               </button>
+
               <button
-                className="bg-gray-200 hover:bg-gray-300 text-sm text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded mr-2"
-                onClick={resetDateRange}
+                onClick={() => { applyQuickRange(30) }}
+                className={`
+    text-sm font-semibold py-1 px-2 border rounded mr-2
+    ${quickRange === 30
+                    ? 'bg-blue-700 text-white border-blue-700'
+                    : 'bg-gray-200 hover:bg-gray-300 text-gray-800 border-gray-400'}
+  `}
+              >
+                Last 1 Month
+              </button>
+
+              <button
+                onClick={() => { applyQuickRange(null) }}
+                className={`
+    text-sm font-semibold py-1 px-2 border rounded mr-2
+    ${quickRange === null
+                    ? 'bg-blue-700 text-white border-blue-700'
+                    : 'bg-gray-200 hover:bg-gray-300 text-gray-800 border-gray-400'}
+  `}
               >
                 View All Wave Data
               </button>
+
               {/* Refresh Icon 按钮 */}
               <button
                 className="bg-green-700 text-white font-bold py-2 px-3 rounded mt-4 ml-2"
@@ -854,12 +1015,67 @@ const Map = ({ location }) => {
           <HighchartsReact
             highcharts={Highcharts}
             options={chartOptions}
-            // options={testOptions}
-            ref={chartComponentRef} // Reference for resizing
+            ref={chartComponentRef}
             containerProps={{ style: { height: "100%", width: "100%" } }} // Ensure chart takes full container
           />
         </div>
       )}
+
+      {Object.keys(compareWaveData).length > 0 && (
+        <Draggable handle=".compare-header" bounds="parent">
+          <div
+            style={{
+              position: 'absolute',
+              top: 10,
+              left: 10,
+              width: compareFullScreen ? '95%' : '600px',
+              height: compareFullScreen ? '90%' : '400px',
+              backgroundColor: 'white',
+              border: '1px solid #ccc',
+              borderRadius: '6px',
+              padding: '10px',
+              zIndex: 999,
+              resize: 'both',
+              overflow: 'auto',
+              boxShadow: '0 2px 12px rgba(0,0,0,0.3)',
+            }}
+          >
+            {/* 顶部拖拽和控制栏 */}
+            <div
+              className="compare-header"
+              style={{
+                cursor: 'move',
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                marginBottom: '10px',
+              }}
+            >
+              <strong>Wave Data Comparison</strong>
+              <div>
+                <button
+                  onClick={() => setCompareFullScreen(prev => !prev)}
+                  className="bg-blue-700 text-white px-2 py-1 rounded mr-2"
+                >
+                  {compareFullScreen ? 'Minimize' : 'Fullscreen'}
+                </button>
+                <button
+                  onClick={handleCloseCompareChart}
+                  className="bg-red-600 text-white px-2 py-1 rounded"
+                >
+                  ✕
+                </button>
+              </div>
+            </div>
+
+            {/* 图表组件 */}
+            <CompareChart data={compareWaveData} />
+          </div>
+        </Draggable>
+      )}
+
+
+
     </div>
   );
 };
