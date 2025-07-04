@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
 
-const Header = ({ onSelectLocation, landmarks }) => {
+const Header = ({ onSelectLocation, landmarks, savedSites, clearSavedSites, removeSavedSite, setHasNewSavedSite, hasNewSavedSite, }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const [savedOpen, setSavedOpen] = useState(false);
 
   // Get all site names from uniqueSites
   const siteNames = landmarks
@@ -112,6 +113,60 @@ const Header = ({ onSelectLocation, landmarks }) => {
               </div>
             )}
           </li>
+          <li className="relative">
+            <button
+              className="hover:text-gray-400 relative"
+              onClick={() => {
+                setSavedOpen(!savedOpen);
+                setHasNewSavedSite(false); // 👈 清除红点
+              }}
+            >
+              Saved Location
+              {hasNewSavedSite && (
+                <span className="absolute -top-1 -right-2 w-2.5 h-2.5 bg-red-600 rounded-full"></span>
+              )}
+            </button>
+            {savedOpen && (
+              <div
+                className="absolute left-0 mt-2 w-56 bg-white text-[#075985] rounded shadow-md z-10"
+                style={{ maxHeight: "250px", overflowY: "auto" }}
+              >
+                {savedSites.length === 0 ? (
+                  <div className="py-2 px-4 text-gray-500">No Saved Location, please select.</div>
+                ) : (
+                  <ul>
+                    {savedSites.map((site, index) => (
+                      <li
+                        key={index}
+                        className="py-2 px-4 hover:bg-[#075985] hover:text-white flex justify-between items-center cursor-pointer"
+                        onClick={() => {
+                          onSelectLocation(site);
+                          setSavedOpen(false);
+                        }}
+                        onContextMenu={(e) => {
+                          e.preventDefault();
+                          removeSavedSite(site);
+                        }}
+                      >
+                        {site}
+                        <span className="text-sm text-gray-400 ml-2">(Right-click to remove)</span>
+                      </li>
+                    ))}
+                    <li
+                      className="py-2 px-4 text-red-600 hover:bg-red-100 cursor-pointer font-semibold"
+                      onClick={() => {
+                        clearSavedSites();
+                        setSavedOpen(false);
+                      }}
+                    >
+                      Clear All
+                    </li>
+                  </ul>
+                )}
+              </div>
+            )}
+          </li>
+
         </ul>
       </nav>
     </header>

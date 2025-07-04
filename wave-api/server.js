@@ -25,7 +25,7 @@ db.once('open', () => {
 // Routes
 app.use('/api/sites', siteRoutes);
 
-// Cron job: runs daily at midnight
+// runs daily at midnight
 cron.schedule('0 1 * * *', async () => {
   console.log('Running scheduled GeoServer update...');
   await fetchAndUpdateSites();
